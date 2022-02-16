@@ -9,10 +9,9 @@ User details: <br><br>
 <b>Shipping Item :</b> {{ $item }} <br>
 <b>Shipping Type :</b> {{ $type }} <br>
 <b>Shipping Size :</b> {{ $size }} <br>
-<b>Service Type :</b> {{ $service }} <br>
+<b>Service Type  ok:</b> {{ $service }} <br>
 
 Thanks
-
 <table id='u_content_text_2' style='font-family:'Rubik',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
   <tbody>
     <tr>

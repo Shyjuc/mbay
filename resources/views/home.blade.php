@@ -105,16 +105,16 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarWelcome">
                                  <a class="dropdown-item " href="{{ url('/quotes') }}">
-                                    Household Shipping.
+                                    Household Shipping
                                 </a>
                                 <a class="dropdown-item " href="{{ url('/pet-shipping') }}">
-                                    Pet Shipping.
+                                    Pet Shipping
                                 </a> 
                             </div>
                         </li>
                         <li class="nav-item ">
                             <a href="{{ url('/about') }}" class="nav-link js-scroll-trigger">
-                                About
+                                About us
                             </a>
                         </li>
                         <li class="nav-item ">
@@ -130,7 +130,7 @@
 
                         <li class="nav-item ">
                             <a href="{{ url('/contact') }}" class="nav-link">
-                                Contact Us
+                                Contact
                             </a>
                         </li>
                     </ul>
