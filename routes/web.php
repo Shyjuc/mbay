@@ -18,6 +18,16 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('clear-config', function() {
+    Artisan::call('config:clear');
+    return "config cleared!";
+});
+
+Route::get('cache-config', function() {
+    Artisan::call('config:cache');
+    return "config setting updated!";
+});
+
 Route::view('/about', 'about');
 Route::view('/quotes', 'quotes');
 Route::view('/pet-shipping', 'pet-shipping');
