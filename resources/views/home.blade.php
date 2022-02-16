@@ -105,10 +105,10 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarWelcome">
                                  <a class="dropdown-item " href="{{ url('/quotes') }}">
-                                    Household Shipping
+                                    Household Shipping.
                                 </a>
                                 <a class="dropdown-item " href="{{ url('/pet-shipping') }}">
-                                    Pet Shipping
+                                    Pet Shipping.
                                 </a> 
                             </div>
                         </li>
