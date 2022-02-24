@@ -12,6 +12,8 @@
 
   <title>MovingBay Trackers and Movers | Pet moving</title>
 
+  <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
+
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}">
   <!-- Animate Css -->
