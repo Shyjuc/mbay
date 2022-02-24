@@ -85,7 +85,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-gradient main-nav navbar-togglable rounded-radius">
 
                 <a class="navbar-brand d-lg-none d-block" href="{{ url('/') }}">
-                    <img src="images/blue-green-logo.png" width="250" height="72" alt="Movingbay" class="img-fluid">
+                    <img src="images/blue-green-logo.png" alt="Movingbay" class="img-fluid">
                 </a>
                 <!-- Toggler -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
