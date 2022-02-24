@@ -121,6 +121,11 @@ h6 {
   background: #F4F7FC;
 }
 
+.bg_trans{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.625rem;
+}
+
 /*--------------------
 Common Styles
 -----------------*/
@@ -744,7 +749,7 @@ PAGE BANNER
 }
 
 .banner-contact-form .form-control {
-  border-radius: 0px;
+  border-radius: 5px;
   height: 45px;
 }
 
