@@ -340,7 +340,7 @@
                 <div class="col-lg-4 col-sm-12 col-md-12">
                     <div class="section-heading testimonial-heading">
                         <h1>What they say <br>about us</h1>
-                        <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
+                        <p>Movingbay offers a truly joined up partnership giving our clients the commitment of a successful relocation, provided through clear communication and strict compliance.</p>
                     </div>
                 </div>
                 <div class="col-lg-8 col-sm-12 col-md-12">
@@ -348,14 +348,13 @@
                         <div class="col-lg-6">
                             <div class="test-inner ">
                                <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
                                    <div class="test-author-info">
-                                       <h4>Testimonial 1</h4>
-                                       <h6>Customer</h6>
+                                       <h4>Mr. Jane Allwyn</h4>
+                                       <h6>Dallas, Texas</h6>
                                    </div>
                                </div>
 
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+                               Relocation is not just about moving to a new place; it’s also about adapting and adjusting to a new way of life, location. Movingbay is our trusted relocation assistance company. One of their key strengths is the support to their clients.
 
                                 <i class="fa fa-quote-right"></i>
                             </div>
@@ -363,14 +362,13 @@
                         <div class="col-lg-6">
                             <div class="test-inner ">
                                <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
                                    <div class="test-author-info">
-                                       <h4>Testimonial 2</h4>
-                                       <h6>Customer</h6>
+                                       <h4>Mr. Hamad Hussain</h4>
+                                       <h6>Belfast, UK</h6>
                                    </div>
                                </div>
 
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
+                               Professional approach from the survey till packing of the personal effects, crew quite experienced and professional. Service is highly appreciated as job has been nicely completed
 
                                 <i class="fa fa-quote-right"></i>
                             </div>
@@ -392,10 +390,6 @@
                             Read Latest News and Guidelines
                         </h2>
 
-                        <!-- Subheading -->
-                        <p>
-                            Our duty towards you is to share our experience we're reaching in our work path with you.
-                        </p>
                     </div>
                 </div>
             </div> <!-- / .row -->
@@ -410,9 +404,9 @@
                             <div class="blog-content">
                                 <h6> 30 January 2022</h6>
                                 <a href="#">
-                                    <h3 class="card-title">Article 1 : Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
+                                    <h3 class="card-title">Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
                                 </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Whether you are ready to move or just beginning the process, our 8-week moving planner includes the tips you need to plan a seamless transition.</p>
                                 <a href="#" class="read-more">Read More</a>
                             </div>
                         </div>
@@ -428,9 +422,9 @@
                             <div class="blog-content">
                                 <h6> 1 February 2022</h6>
                                 <a href="#">
-                                    <h3 class="card-title">Article 2 : Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
+                                    <h3 class="card-title">Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
                                 </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Whether you are ready to move or just beginning the process, our 8-week moving planner includes the tips you need to plan a seamless transition.</p>
                                 <a href="#" class="read-more">Read More</a>
                             </div>
                         </div>
@@ -445,9 +439,9 @@
                         <div class="single-blog">
                             <div class="blog-content">
                                 <a href="#">
-                                    <h3 class="card-title">Article 3 : Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
+                                    <h3 class="card-title">Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
                                 </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Whether you are ready to move or just beginning the process, our 8-week moving planner includes the tips you need to plan a seamless transition.</p>
                                 <a href="#" class="read-more">Read More</a>
                             </div>
                         </div>
