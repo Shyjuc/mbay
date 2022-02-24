@@ -84,8 +84,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-gradient main-nav navbar-togglable rounded-radius">
 
-                <a class="navbar-brand d-lg-none d-block" href="">
-                    <img src="images/blue-green-logo.png" alt="" class="img-fluid">
+                <a class="navbar-brand d-lg-none d-block" href="{{ url('/') }}">
+                    <img src="images/blue-green-logo.png" width="250" height="72" alt="Movingbay" class="img-fluid">
                 </a>
                 <!-- Toggler -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,7 +97,7 @@
                     <!-- Links -->
                     <ul class="navbar-nav ">
                         <li class="nav-item ">
-                            <a href="index.html" class="nav-link js-scroll-trigger">
+                            <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
                                 Home
                             </a>
                         </li>
