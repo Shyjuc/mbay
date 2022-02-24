@@ -227,7 +227,7 @@
                         <img src="images/process/process-1.jpg" alt="House moving" class="img-fluid">
 
                         <h3>House Moving</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <p>At Movingbay, we’ve helped individuals move to exciting new locations all over the world, so let us know how we can help.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
@@ -235,7 +235,7 @@
                         <img src="images/process/process-2.jpg" alt="Pet Relocation" class="img-fluid">
 
                         <h3>Pet Relocation</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <p>If you’re ready to move with your pet(s), you want to be certain they’ll be handled with the care and compassion you show for them daily.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
@@ -243,7 +243,7 @@
                         <img src="images/process/process-3.jpg" alt="Relocation Services" class="img-fluid">
 
                         <h3>Relocation Services</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <p>Our services take care of everything, from packing to relocation, immigration, short or long term home finding and orientation, we do it all</p>
                     </div>
                 </div>
             </div>
@@ -273,21 +273,21 @@
                     <div class="web-service-block">
                         <img src="images/service/service1.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
                         <h3>Household Shipping</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>We provide all-inclusive services for shipping your household goods</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
                         <img src="images/service/service2.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
                         <h3>Pet Shipping</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Widely regarded as one of India's most trusted pet shipping experts.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
                         <img src="images/service/service3.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
                         <h3>Furniture Rentals</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Use our relocation furniture rental if you're moving for a job.</p>
                     </div>
                 </div>
 
@@ -295,35 +295,35 @@
                     <div class="web-service-block">
                         <img src="images/service/service4.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
                         <h3>Long &amp; Short Distance</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Movingbay has been providing customers with reliable and professional long distance moving services.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service5.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
                         <h3>International Moving</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Get free quotes within minutes with best prices for Middle east, US and Europe sector.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service6.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
                         <h3>Car Moving</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <img src="images/service/service7.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Corporate Relocation</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>As a move specialist will help you navigate the car transportation paperwork, scheduling and billing</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service8.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
                         <h3>Moving &amp; Hauling</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Full line of services for homeowners, businesses, and contractors.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-6 ">
+                    <div class="web-service-block">
+                        <img src="images/service/service7.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
+                        <h3>Corporate Relocation</h3>
+                        <p>Solve all the challenges of cross-border moves, from small businesses to large-scale multinationals.</p>
                     </div>
                 </div>
             </div>
@@ -331,97 +331,7 @@
     </section>
 
 
-<section class="section" id="service">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 pl-4 text-center">
-                    <div class="service-heading">
-                        <h1>Get a better deal and start moving</h1>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-reload"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>International Household Moving</h4>
-                            <p>Moving household Goods to / from India from anywhere.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-cloud"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>International Pet Moving</h4>
-                            <p>Send your Pet from Any country to India.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media ">
-                        <div class="service-icon">
-                            <i class="ti-world"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Immigration services</h4>
-                            <p>Provides immigration benefits to people who are planning to shift.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media ">
-                        <div class="service-icon">
-                            <i class="ti-server"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Domestic Moving</h4>
-                            <p>Anywhere in India Relocation Services.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-world"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Domestic Pet Moving</h4>
-                            <p>Within India Pet moving by Air.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-cloud"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Home Search</h4>
-                            <p>Search home before you moving to a new location.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>   
-            
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="pl-3">Want to know more about this? <a href="#">Contact us</a></p>
-                </div>
-            </div>    
-        </div>
-    </section>
+
     
 
 <section class="section" id="section-testimonial">
@@ -479,7 +389,7 @@
                     <div class="section-heading">
                         <!-- Heading -->
                         <h2 class="section-title">
-                            Read our latest news
+                            Read Latest News and Guidelines
                         </h2>
 
                         <!-- Subheading -->

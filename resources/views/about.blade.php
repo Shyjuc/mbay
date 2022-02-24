@@ -43,9 +43,10 @@
     ================================================= -->
     <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
         <div class="container">
-            <a class="navbar-brand" href="index-3.html">
-                <h3>Rapoo</h3>
-            </a>
+        <a class="navbar-brand" href="{{ url('/') }}">
+                    <img src="images/blue-green-logo.png" alt="Movingbay" class="img-fluid">
+                </a>
+
             <!-- Toggler -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
@@ -55,53 +56,51 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <!-- Links -->
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Home
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                             <a class="dropdown-item " href="index.html">
-                                Home-1
+                <li class="nav-item ">
+                            <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
+                                Home
                             </a>
-                            <a class="dropdown-item " href="index-2.html">
-                                Home-2
-                            </a> 
-                            <a class="dropdown-item " href="index-3.html">
-                                Home-3
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Quotes
                             </a>
-                            <a class="dropdown-item " href="index-4.html">
-                                Home-4
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/quotes') }}">
+                                    Household Shipping
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/pet-shipping') }}">
+                                    Pet Shipping
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="{{ url('/about') }}" class="nav-link js-scroll-trigger">
+                                About us
                             </a>
-                        </div>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="about.html" class="nav-link js-scroll-trigger">
-                            About
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="service.html" class="nav-link js-scroll-trigger">
-                            Services
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="pricing.html" class="nav-link js-scroll-trigger">
-                            Pricing
-                        </a>
-                    </li>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="{{ url('/regulations') }}" class="nav-link js-scroll-trigger">
+                                Custom Regulations
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="{{ url('/shipping') }}" class="nav-link js-scroll-trigger">
+                                Shipping Info
+                            </a>
+                        </li>
 
-                    <li class="nav-item ">
-                        <a href="project.html" class="nav-link js-scroll-trigger">
-                            Projects
-                        </a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a href="contact.html" class="nav-link">
-                            Contact
-                        </a>
-                    </li>
+                        <li class="nav-item ">
+                            <a href="{{ url('/contact') }}" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
                 </ul>
+                <ul class="ml-lg-auto list-unstyled m-0">
+                        <li><a href="https://wa.me/918618173141?text=Movingbay.org:%20<%20Please-type-your-query-here>." class="btn btn-trans-white btn-circled"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+</svg> WhatsApp</a></li>
+                    </ul>
             </div> <!-- / .navbar-collapse -->
         </div> <!-- / .container -->
     </nav>
@@ -354,80 +353,96 @@
             </div>
         </div>
     </section>
- <section class="section" id="blog">
+
+    <section class="section" id="service">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Read our latest news
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-                            Our duty towards you is to share our experience we're reaching in our work path with you.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-1.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#">
-                                    <h3 class="card-title">Top tips to speed up your site in a speedy time</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                <a href="#" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-2.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#">
-                                    <h3 class="card-title">Brand your site value with marketing strategies</h3>
-                                </a>
-
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                 <a href="#" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-8">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-3.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#">
-                                    <h3 class="card-title">Website Optimization is very essential for site speed</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                 <a href="#" class="read-more">Read More</a>
-                            </div>
-                        </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 pl-4 text-center">
+                    <div class="service-heading">
+                        <h1>Get a better deal and start moving</h1>
                     </div>
                 </div>
             </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-block media">
+                        <div class="service-icon">
+                            <i class="ti-reload"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>International Household Moving</h4>
+                            <p>Moving household Goods to / from India from anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3 col-md-6">
+                    <div class="service-block media">
+                        <div class="service-icon">
+                            <i class="ti-cloud"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>International Pet Moving</h4>
+                            <p>Send your Pet from Any country to India.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3 col-md-6">
+                    <div class="service-block media ">
+                        <div class="service-icon">
+                            <i class="ti-world"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Immigration services</h4>
+                            <p>Provides immigration benefits to people who are planning to shift.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3 col-md-6">
+                    <div class="service-block media ">
+                        <div class="service-icon">
+                            <i class="ti-server"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Domestic Moving</h4>
+                            <p>Anywhere in India Relocation Services.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-block media">
+                        <div class="service-icon">
+                            <i class="ti-world"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Domestic Pet Moving</h4>
+                            <p>Within India Pet moving by Air.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-block media">
+                        <div class="service-icon">
+                            <i class="ti-cloud"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Home Search</h4>
+                            <p>Search home before you moving to a new location.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="pl-3">Want to know more about this? <a href="#">Contact us</a></p>
+                </div>
+            </div>    
         </div>
     </section>
 
