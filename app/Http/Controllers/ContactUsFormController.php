@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Contact;
 
+use Mail;
+
 class ContactUsFormController extends Controller
 {
     // Create Contact Form
@@ -75,13 +77,17 @@ class ContactUsFormController extends Controller
             'dest_country'=>'required'
          ]);
 
+
+         $data = $request->input();
+
         //  Store data in database
         //Contact::create($request->all());
 
         //  Send mail to admin
-        \Mail::send('quotemail', array(
-            'fromcountry' => $request->get('fromcountry'),
-            'tocountry' => $request->get('tocountry'),
+        /*
+        \Mail::send('email.movgingbayquote', array(
+            'fromcountry' => $data['fromcountry'],
+            'tocountry' => $data['tocountry'],
             'item' => $request->get('shippingitem'),
             'type' => $request->get('shippingtype'),
             'size' => $request->get('shippingsize'),
@@ -108,6 +114,43 @@ class ContactUsFormController extends Controller
             $message->from($request->email);
             $message->to('shyjuc@wing20.com', 'Admin')->subject($request->get('subject'));
         });
+        */
+
+       //$emails = [$input['email']];
+       $emails = ["shyjuc@wing20.com"];
+        
+        $datas = array(
+            'fromcountry'    => $data['fromcountry'],
+            'tocountry'    => $data['tocountry'],
+            'shipitem'    => $data['shippingitem'],
+            'shiptype'    => $data['shippingtype'],
+            'shipsize'    => $data['shippingsize'],
+            'servicetype'    => $data['servicetype'],
+            'fname'    => $data['firstname'],
+            'lname'    => $data['lastname'],
+            'subject'    => $data['subject'],
+            'phone'    => $data['phone'],
+            'email'    => $data['email'],
+            'message'    => $data['message'],
+            'address1'    => $data['address_line1'],
+            'address2'    => $data['address_line2'],
+            'city'    => $data['city'],
+            'state'    => $data['state'],
+            'zip'    => $data['zip'],
+            'country'    => $data['country'],
+            'daddress1'    => $data['dest_address_line1'],
+            'daddress2'    => $data['dest_address_line2'],
+            'dcity'    => $data['dest_city'],
+            'dstate'    => $data['dest_state'],
+            'dzip'    => $data['dest_zip'],
+            'dcountry'    => $data['dest_country']
+        );
+
+        Mail::send('movgingbayquote', $datas, function($message) use ($emails) {
+                 $message->to($emails)->subject
+                    ('Quote from Movingbay.Org');
+                 $message->from('info@movingbay.org','Movingbay');
+              });
 
         // 
         return back()->with('success', 'We have received your message and would like to thank you for writing to us.');
