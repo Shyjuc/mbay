@@ -10,7 +10,7 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay Relocation Services | Quotes</title>
+  <title>MovingBay: Packers and Movers | Quotes</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}">

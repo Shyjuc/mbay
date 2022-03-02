@@ -10,7 +10,7 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay Trackers and Movers | Pet moving</title>
+  <title>MovingBay: Packers and Movers | Pet moving</title>
 
   <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
 
