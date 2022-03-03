@@ -161,7 +161,7 @@
                 <div class="col-lg-9 col-md-12 col-12 text-center">
                     <div class="page-banner-content">
                         <h1 class="display-4 font-weight-bold">YOUR IDEAL MOVING PARTNER</h1>
-                        <p>International Relocation | Pet Moving | Immigration</p>
+                        <p>Household good relocation | Pet Moving | Immigration</p>
                     </div>
                 </div>
             </div> <!-- / .row -->
@@ -174,7 +174,7 @@
                 <div class="col-lg-7 pl-4 text-center">
                     <div class="service-heading">
                         <h1>WHY MOVINGBAY?</h1>
-                        <h4>Our top practices that yielded a phenomenal number of repeated clients</h4>
+                        <h4>Movingbay is a privately held organization providing global mobility services for over 20 years. We are a full service international relocation company. We provide a truly exceptional moving experience to our clients, their employees and their families; with our top priorities that yielded a phenomenal number of repeated clients</h4>
                     </div>
                 </div>
             </div>
@@ -217,12 +217,7 @@
                 </div>
                 
             </div>   
-            
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="pl-3">Want to know more about this? <a href="#">Contact us</a></p>
-                </div>
-            </div>    
+               
         </div>
     </section>    
 
@@ -251,7 +246,7 @@
                     <div class="single-project">
                         <img src="images/projects/p-1.jpg" alt="" class="img-fluid">
                         <div class="project-content">
-                            <h4>Project: onepage</h4>
+                            <h4>Household good relocation</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
                         </div>
                     </div>
@@ -260,7 +255,7 @@
                     <div class="single-project">
                         <img src="images/projects/p-4.jpg" alt="" class="img-fluid">
                         <div class="project-content">
-                            <h4>Project: business</h4>
+                            <h4>Pet moving</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
                         </div>
                     </div>
@@ -269,7 +264,7 @@
                     <div class="single-project">
                         <img src="images/projects/p-3.jpg" alt="" class="img-fluid">
                         <div class="project-content">
-                            <h4>Project : Marketing</h4>
+                            <h4>Corporate relocation</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod</p>
                         </div>
                     </div>
@@ -279,15 +274,15 @@
             <div class="row py-4">
                 <div class="col-lg-7 col-md-12 col-sm-12 ">
                     <div class="single-project">
-                        <img src="images/bg/banner_bg.jpg" alt="" class="img-fluid">
+                        <img src="images/bg/office_bg.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 ">
                     <div class="project-content-block">
                         <h4>Corporate Relocation</h4>
                         <h2>Planning to move your employees or company assets?</h2>
-                        <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and we will give you a complete account of the system.</p>
-                        <button class="btn btn-primary btn-circled">Partner with us</button>
+                        <p>No matter where you have the need to assign people internationally, Movingbay can assist with all of your needs.</p>
+                        <button class="btn btn-primary btn-circled">Learn more</button>
                     </div>
                 </div>
             </div>
@@ -295,7 +290,7 @@
     </section>
 
 
- <footer class="section " id="footer">
+    <footer class="section " id="footer">
         <div class="overlay footer-overlay"></div>
         <!--Content -->
         <div class="container">
@@ -303,10 +298,10 @@
                 <div class="col-lg-4 col-sm-12">
                     <div class="footer-widget">
                         <!-- Brand -->
-                        <a href="#" class="footer-brand text-white">
-                            Rapoo
+                        <a href="index.html" class="footer-brand text-white">
+                            <img src="images/blue-green-logo.png" alt="" class="img-fluid">
                         </a>
-                        <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>MovingBay was formed by a group of Industry Experts with vast experience of handling any aspect of Relocation Requirement.</p>
                     </div>
                 </div>
 
@@ -323,11 +318,6 @@
                             <li>
                                 <a href="#">
                                     Privacy policy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Affiliate services
                                 </a>
                             </li>
                             <li>
@@ -389,8 +379,6 @@
                             <li>
                             <a href="#"><i class="fab fa-twitter"></i>Twitter
                             </a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest
-                            </a></li>
                             <li><a href="#"><i class="fab fa-linkedin"></i>linkedin
                             </a></li>
                             <li><a href="#"><i class="fab fa-youtube"></i>YouTube
@@ -405,7 +393,7 @@
                 <div class="col-lg-12">
                     <!-- Copyright -->
                     <p class="footer-copy ">
-                        &copy; Copyright <span class="current-year">Themefisher</span> All rights reserved.
+                        &copy; Copyright <span class="current-year">Movingbay.org</span> All rights reserved.
                     </p>
                 </div>
             </div> <!-- / .row -->
