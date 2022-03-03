@@ -12,6 +12,8 @@
 
   <title>MovingBay: Packers and Movers | About</title>
 
+  <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
+
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}">
   <!-- Animate Css -->
@@ -55,11 +57,61 @@
             <!-- Collapse -->
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <!-- Links -->
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto" style="font-size:14px;">
                 <li class="nav-item ">
                             <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
                                 Home
                             </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/pet-shipping') }}">
+                                    Pet Relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/home-search') }}">
+                                    Home Search
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/school-search') }}">
+                                    School Search
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/household-relocation') }}">
+                                    Household good relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/employee-relocation') }}">
+                                    Employee Relocation
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Moving to
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                            <a class="dropdown-item " href="{{ url('/moving-to-india') }}">
+                                    INDIA
+                                </a>
+                                 <a class="dropdown-item " href="{{ url('/moving-to-usa') }}">
+                                    USA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-europe') }}">
+                                    EUROPE
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-gcc') }}">
+                                    GCC
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-canada') }}">
+                                    CANADA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-south-america') }}">
+                                    SOUTH AMERICA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-australia') }}">
+                                    AUSTRALIA
+                                </a> 
+                            </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -74,26 +126,19 @@
                                 </a> 
                             </div>
                         </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/about') }}" class="nav-link js-scroll-trigger">
-                                About us
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/regulations') }}" class="nav-link js-scroll-trigger">
-                                Custom Regulations
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/shipping') }}" class="nav-link js-scroll-trigger">
-                                Shipping Info
-                            </a>
-                        </li>
 
-                        <li class="nav-item ">
-                            <a href="{{ url('/contact') }}" class="nav-link">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Contact
                             </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/about') }}">
+                                    Company profile
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/contact') }}">
+                                    Contact us
+                                </a> 
+                            </div>
                         </li>
                 </ul>
                 <ul class="ml-lg-auto list-unstyled m-0">
@@ -115,63 +160,71 @@
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-12 col-12 text-center">
                     <div class="page-banner-content">
-                        <h1 class="display-4 font-weight-bold">Creative It agency</h1>
-                        <p>We'd love to talk about how we can help you.</p>
+                        <h1 class="display-4 font-weight-bold">YOUR IDEAL MOVING PARTNER</h1>
+                        <p>International Relocation | Pet Moving | Immigration</p>
                     </div>
                 </div>
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </section>
 
-
-
-<section class="section" id="process">
+    <section class="section" id="service">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Our Working process
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-                            Rapoo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-1.jpg" alt="" class="img-fluid">
-
-                        <h3>Project Research</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-2.jpg" alt="" class="img-fluid">
-
-                        <h3>Project demostration</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-3.jpg" alt="" class="img-fluid">
-
-                        <h3>Development & delivery</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 pl-4 text-center">
+                    <div class="service-heading">
+                        <h1>WHY MOVINGBAY?</h1>
+                        <h4>Our top practices that yielded a phenomenal number of repeated clients</h4>
                     </div>
                 </div>
             </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-block media">
+                        <div class="service-icon">
+                            <i class="ti-reload"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Stress free relocation</h4>
+                            <p>With our presence in East & West coast time zones, you are always working with a team in or near your time zone.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3 col-md-6">
+                    <div class="service-block media">
+                        <div class="service-icon">
+                            <i class="ti-cloud"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Timely Communication</h4>
+                            <p>We make our customer journey convenient by providing regular updates at various phases of relocation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3 col-md-6">
+                    <div class="service-block media ">
+                        <div class="service-icon">
+                            <i class="ti-world"></i>
+                        </div>
+                        <div class="service-inner-content media-body">
+                            <h4>Personalized Attention</h4>
+                            <p>1:1 Customer Service, with the assistance of 50+ agents worldwide to provide stellar moving services.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>   
+            
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="pl-3">Want to know more about this? <a href="#">Contact us</a></p>
+                </div>
+            </div>    
         </div>
-    </section>
+    </section>    
 
 
 <section class="section" id="projects-wrap">
@@ -180,11 +233,12 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h1 class="text-white">We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
+                        <h1 class="text-white">With access to over 1000 trusted agents worldwide through the network of International Association of Movers, there is no part of the world we cannot serve.</h1>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <p class="lead text-white">We are providing best service since 1990 to present , committed to best service delivery.Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
+                    <p class="lead text-white">Regardless of the size of your move, we offer complete door-to-door moving and international relocation solution which fit your needs. With our presence in South East Asia, Middle East & East coast time zones, you are always working with a team in or near your time zone. </p>
+                    <p class="lead text-white">To learn more about your relocation destination and required documentation for the moving process, simply speak to one of our experts. With years of experience, we can give you an accurate overview of the requirements for over 50 countries worldwide.</p>
                 </div>
             </div>
         </div>
@@ -230,221 +284,16 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 ">
                     <div class="project-content-block">
-                        <h4>Do you know who we are?</h4>
-                        <h2>More than just service your products...</h2>
+                        <h4>Corporate Relocation</h4>
+                        <h2>Planning to move your employees or company assets?</h2>
                         <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and we will give you a complete account of the system.</p>
+                        <button class="btn btn-primary btn-circled">Partner with us</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-<section class="section" id="section-testimonial">
-        <div class="container">
-           <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="section-heading testimonial-heading">
-                        <h1>What they say <br>about us</h1>
-                        <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-3.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-4.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-5.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-6.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="service">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 pl-4 text-center">
-                    <div class="service-heading">
-                        <h1>Get a better deal and start moving</h1>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-reload"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>International Household Moving</h4>
-                            <p>Moving household Goods to / from India from anywhere.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-cloud"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>International Pet Moving</h4>
-                            <p>Send your Pet from Any country to India.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media ">
-                        <div class="service-icon">
-                            <i class="ti-world"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Immigration services</h4>
-                            <p>Provides immigration benefits to people who are planning to shift.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media ">
-                        <div class="service-icon">
-                            <i class="ti-server"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Domestic Moving</h4>
-                            <p>Anywhere in India Relocation Services.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-world"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Domestic Pet Moving</h4>
-                            <p>Within India Pet moving by Air.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-cloud"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Home Search</h4>
-                            <p>Search home before you moving to a new location.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>   
-            
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="pl-3">Want to know more about this? <a href="#">Contact us</a></p>
-                </div>
-            </div>    
-        </div>
-    </section>
 
  <footer class="section " id="footer">
         <div class="overlay footer-overlay"></div>
