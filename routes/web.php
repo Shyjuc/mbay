@@ -32,6 +32,8 @@ Route::view('/about', 'about');
 Route::view('/quotes', 'quotes');
 Route::view('/pet-shipping', 'pet-shipping');
 Route::view('/contact', 'contact');
+Route::view('/pet-relocation', 'pet-relocation');
+Route::view('/household-relocation', 'household-good-relocation');
 
 Route::get('/contact', [ContactUsFormController::class, 'createForm']);
 

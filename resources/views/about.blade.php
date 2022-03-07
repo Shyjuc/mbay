@@ -68,14 +68,8 @@
                                 Services
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                                 <a class="dropdown-item " href="{{ url('/pet-shipping') }}">
+                                 <a class="dropdown-item " href="{{ url('/pet-relocation') }}">
                                     Pet Relocation
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/home-search') }}">
-                                    Home Search
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/school-search') }}">
-                                    School Search
                                 </a>
                                 <a class="dropdown-item " href="{{ url('/household-relocation') }}">
                                     Household good relocation

@@ -96,10 +96,54 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <!-- Links -->
                     <ul class="navbar-nav ">
-                        <li class="nav-item ">
+                    <li class="nav-item ">
                             <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
                                 Home
                             </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/pet-relocation') }}">
+                                    Pet Relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/household-relocation') }}">
+                                    Household good relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/employee-relocation') }}">
+                                    Employee Relocation
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Moving to
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                            <a class="dropdown-item " href="{{ url('/moving-to-india') }}">
+                                    INDIA
+                                </a>
+                                 <a class="dropdown-item " href="{{ url('/moving-to-usa') }}">
+                                    USA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-europe') }}">
+                                    EUROPE
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-gcc') }}">
+                                    GCC
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-canada') }}">
+                                    CANADA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-south-america') }}">
+                                    SOUTH AMERICA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-australia') }}">
+                                    AUSTRALIA
+                                </a> 
+                            </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -114,26 +158,19 @@
                                 </a> 
                             </div>
                         </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/about') }}" class="nav-link js-scroll-trigger">
-                                About us
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/regulations') }}" class="nav-link js-scroll-trigger">
-                                Custom Regulations
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/shipping') }}" class="nav-link js-scroll-trigger">
-                                Shipping Info
-                            </a>
-                        </li>
 
-                        <li class="nav-item ">
-                            <a href="{{ url('/contact') }}" class="nav-link">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Contact
                             </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/about') }}">
+                                    Company profile
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/contact') }}">
+                                    Contact us
+                                </a> 
+                            </div>
                         </li>
                     </ul>
 
@@ -214,9 +251,7 @@
                         </h2>
 
                         <!-- Subheading -->
-                        <p>
-                            MovingBay was formed by a group of Industry Experts with vast experience of handling any aspect of Relocation Requirement. Our team handles every move, let it be household goods or Family Pets, it is handled with a personalized touch to make sure your Relocation is Smooth.
-                        </p>
+                        
                     </div>
                 </div>
             </div> <!-- / .row -->
@@ -226,7 +261,7 @@
                     <div class="process-block">
                         <img src="images/process/process-1.jpg" alt="House moving" class="img-fluid">
 
-                        <h3>House Moving</h3>
+                        <h3>Household good Moving</h3>
                         <p>At Movingbay, we’ve helped individuals move to exciting new locations all over the world, so let us know how we can help.</p>
                     </div>
                 </div>
@@ -252,22 +287,6 @@
 
     <section class="section" id="services-2">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title mb-2 text-white">
-                            Core Services
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p class="mb-5 text-white">
-                            Our team comprise of moving experts who can cater any of your relocation requirement starting from Home Search, School Search, Settling In, Household Goods Moving, Pet Relocation, or any aspect of a relocation which you will be looking for.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
             <div class="row">
                 <div class="col-lg-3 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
