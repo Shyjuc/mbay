@@ -55,48 +55,81 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <!-- Links -->
                 <ul class="navbar-nav ">
-                    <li class="nav-item ">
-                        <a href="index.html" class="nav-link js-scroll-trigger">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Quotes
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                             <a class="dropdown-item " href="index.html">
-                                Household Shipping
+                <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
+                                Home
                             </a>
-                            <a class="dropdown-item " href="index-2.html">
-                                Pet Shipping
-                            </a> 
-                            <a class="dropdown-item " href="index-3.html">
-                                Local Shifting Rates
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
                             </a>
-                        </div>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="about.html" class="nav-link js-scroll-trigger">
-                            About
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="service.html" class="nav-link js-scroll-trigger">
-                            Custom Regulations
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="pricing.html" class="nav-link js-scroll-trigger">
-                            Shipping Info
-                        </a>
-                    </li>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/pet-relocation') }}">
+                                    Pet Relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/household-relocation') }}">
+                                    Household good relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/employee-relocation') }}">
+                                    Employee Relocation
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Moving to
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                            <a class="dropdown-item " href="{{ url('/moving-to-india') }}">
+                                    INDIA
+                                </a>
+                                 <a class="dropdown-item " href="{{ url('/moving-to-usa') }}">
+                                    USA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-europe') }}">
+                                    EUROPE
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-gcc') }}">
+                                    GCC
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-canada') }}">
+                                    CANADA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-south-america') }}">
+                                    SOUTH AMERICA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-australia') }}">
+                                    AUSTRALIA
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Quotes
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/quotes') }}">
+                                    Household Shipping
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/pet-shipping') }}">
+                                    Pet Shipping
+                                </a> 
+                            </div>
+                        </li>
 
-                    <li class="nav-item ">
-                        <a href="contact.html" class="nav-link">
-                            Contact Us
-                        </a>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contact
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/about') }}">
+                                    Company profile
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/contact') }}">
+                                    Contact us
+                                </a> 
+                            </div>
+                        </li>
                 </ul>
                 <ul class="ml-lg-auto list-unstyled m-0">
                         <li><a href="https://wa.me/918618173141?text=Movingbay.org:%20<%20Please-type-your-query-here>." class="btn btn-trans-white btn-circled"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
