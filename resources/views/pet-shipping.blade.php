@@ -203,7 +203,7 @@
                                 </label>
 
                                 <div class="input-group">
-                                    <input class="form-control" name="fname" id="lname" required="" placeholder="First name" type="text">
+                                    <input class="form-control" name="fname" id="fname" required="" placeholder="First name" type="text">
                                 </div>
                                 @error('fname')
                                         <span class="alert alert-danger" role="alert">
@@ -368,7 +368,7 @@
                                 </label>
 
                                 <div class="input-group ">
-                                    <input class="form-control" name="age" id="age" required="" placeholder="" type="email">
+                                    <input class="form-control" name="age" id="age" required="" placeholder="" type="text">
                                 </div>
                                 @error('age')
                                         <span class="alert alert-danger" role="alert">
@@ -428,7 +428,7 @@
                              </label>
  
                              <div class="input-group">
-                                 <textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="Hi there, I would like to ..."></textarea>
+                                 <textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="Enter your message"></textarea>
                              </div>
                              @error('message')
                                         <span class="alert alert-danger" role="alert">

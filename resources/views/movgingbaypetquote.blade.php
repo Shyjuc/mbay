@@ -68,21 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                     </tbody>
                                 </table>
                                 <p></p>
-                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="margin-top: 36px;">
-                                    <tbody>
-                                        <tr>
-                                            <td
-                                                align="center"
-                                                height="53"
-                                                width="100%"
-                                                style="padding: 15px 40px; font-family: helvetica; font-size: 22px; font-weight: bold; letter-spacing: 1.2px; text-align: center; color: #000;"
-                                            >
-                                            Subject : {{ $message }}
-                                            </td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
+
                                 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-bottom:1px solid #ccc;">
                                     <tbody>
                                         <tr>

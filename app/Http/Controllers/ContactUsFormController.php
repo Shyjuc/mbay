@@ -145,10 +145,10 @@ class ContactUsFormController extends Controller
             'petname' => 'required',
             'species' => 'required',
             'breed' => 'required',
-            'weight' => 'required',
-            'age' => 'required',
-            'length' => 'required',
-            'height' => 'required',
+            'weight' => 'required|numeric',
+            'age' => 'required|numeric',
+            'length' => 'required|numeric',
+            'height' => 'required|numeric',
             'message'=>'required',
             'city'=>'required',
             'state'=>'required',
@@ -166,8 +166,8 @@ class ContactUsFormController extends Controller
          $emails = ["shyjuc@wing20.com"];
         
         $datas = array(
-            'fname'    => $data['firstname'],
-            'lname'    => $data['lastname'],
+            'fname'    => $data['fname'],
+            'lname'    => $data['lname'],
             'phone'    => $data['phone'],
             'email'    => $data['email'],
             'pname'    => $data['petname'],
@@ -189,8 +189,8 @@ class ContactUsFormController extends Controller
         );
 
         $datathanks = array(
-            'fname'    => $data['firstname'],
-            'lname'    => $data['lastname']
+            'fname'    => $data['fname'],
+            'lname'    => $data['lname']
         );
 
         $emailthanks = [$data['email']];
