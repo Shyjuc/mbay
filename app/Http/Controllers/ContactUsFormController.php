@@ -30,20 +30,81 @@ class ContactUsFormController extends Controller
         //  Store data in database
         Contact::create($request->all());
 
-        //  Send mail to admin
-        \Mail::send('mail', array(
+        $datas = array(
             'name' => $request->get('name'),
             'email' => $request->get('email'),
             'phone' => $request->get('phone'),
             'subject' => $request->get('subject'),
             'user_query' => $request->get('message'),
-        ), function($message) use ($request){
-            $message->from($request->email);
-            $message->to('shyjuc@wing20.com', 'Admin')->subject($request->get('subject'));
-        });
+        );
+
+        $datathanks = array(
+            'name'    => $request->get('name'),
+            'subject'    => $request->get('subject')
+        );
+
+        $emails = ["shyjuc@wing20.com"];
+        $emailthanks = [$request->get('email')];
+
+        Mail::send('movgingbayquery', $datas, function($message) use ($emails) {
+                 $message->to($emails)->subject
+                    ('Quote from Movingbay.org');
+                 $message->from('info@movingbay.org','Movingbay');
+              });
+
+        Mail::send('thanksemail', $datathanks, function($message) use ($emailthanks) {
+                 $message->to($emailthanks)->subject
+                    ('Movingbay | Thank you. Your Query has been noted');
+                 $message->from('info@movingbay.org','Movingbay');
+              });  
 
         // 
         return back()->with('success', 'We have received your message and would like to thank you for writing to us.');
+    }
+
+
+    public function GetaquoteForm(Request $request) {
+
+        // Form validation
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
+            'message' => 'required'
+         ]);
+
+        //  Store data in database
+        Contact::create($request->all()+ ['subject' => 'Get a Quote Query']);
+
+        $datas = array(
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
+            'user_query' => $request->get('message'),
+        );
+
+        $datathanks = array(
+            'name'    => $request->get('name'),
+            'subject'    => $request->get('message')
+        );
+
+        $emails = ["shyjuc@wing20.com"];
+        $emailthanks = [$request->get('email')];
+
+        Mail::send('movgingbayhomequery', $datas, function($message) use ($emails) {
+                 $message->to($emails)->subject
+                    ('Quote from Movingbay.org');
+                 $message->from('info@movingbay.org','Movingbay');
+              });
+
+        Mail::send('thanksemail', $datathanks, function($message) use ($emailthanks) {
+                 $message->to($emailthanks)->subject
+                    ('Movingbay | Thank you. Your Query has been noted');
+                 $message->from('info@movingbay.org','Movingbay');
+              });  
+
+        // 
+        return back()->with('success', 'Thank you for your inquiry. We will get back to you as soon as possible');
     }
 
     // Store Contact Form data

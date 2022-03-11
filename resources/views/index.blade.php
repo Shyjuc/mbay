@@ -180,7 +180,11 @@
                 <div class="col-lg-4 ">
                     <div class="banner-contact-form bg-white">
                         <h5>Get a Free Quote/Ask a Question</h5>
-                        <form action="#" >
+                        @if(Session::has('success'))
+                        <span class="btn btn-link">{{Session::get('success')}}</span>
+                        @endif
+                        <form method="post" action="{{ route('contact.getquote') }}">
+                        @csrf
                             <div class="form-group">
                                 <input type="text" name="name" id="name" class="form-control" placeholder="your Name">
                             </div>
@@ -188,12 +192,12 @@
                                 <input type="text" name="email" id="email" class="form-control" placeholder="your Email">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="your Subject">
+                                <input type="text" class="form-control" name="phone" id="phone" placeholder="your Phone">
                             </div>
                             <div class="form-group">
                                 <textarea name="message" id="message" cols="30" rows="4" class="form-control" placeholder="Your message"></textarea>
                             </div>
-                            <a href="#" class="btn btn-dark btn-block btn-circled">Submit a query</a>
+                            <button type="submit" class="btn btn-dark btn-block btn-circled">Submit a query</a>
                         </form>
                     </div>
                 </div>

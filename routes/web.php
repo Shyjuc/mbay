@@ -40,3 +40,4 @@ Route::get('/contact', [ContactUsFormController::class, 'createForm']);
 Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
 Route::post('/quotes', [ContactUsFormController::class, 'QuotesForm'])->name('contact.quote');
 Route::post('/pet-shipping', [ContactUsFormController::class, 'PetForm'])->name('contact.pet');
+Route::post('/', [ContactUsFormController::class, 'GetaquoteForm'])->name('contact.getquote');
