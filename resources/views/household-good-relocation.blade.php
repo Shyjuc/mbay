@@ -55,6 +55,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <!-- Links -->
                 <ul class="navbar-nav ">
+                <li class="nav-item">
                 <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
                                 Home
                             </a>

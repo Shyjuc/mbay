@@ -62,6 +62,50 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/pet-relocation') }}">
+                                    Pet Relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/household-relocation') }}">
+                                    Household good relocation
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/employee-relocation') }}">
+                                    Employee Relocation
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Moving to
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                            <a class="dropdown-item " href="{{ url('/moving-to-india') }}">
+                                    INDIA
+                                </a>
+                                 <a class="dropdown-item " href="{{ url('/moving-to-usa') }}">
+                                    USA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-europe') }}">
+                                    EUROPE
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-gcc') }}">
+                                    GCC
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-canada') }}">
+                                    CANADA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-south-america') }}">
+                                    SOUTH AMERICA
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/moving-to-australia') }}">
+                                    AUSTRALIA
+                                </a> 
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Quotes
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarWelcome">
@@ -73,26 +117,19 @@
                                 </a> 
                             </div>
                         </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/about') }}" class="nav-link js-scroll-trigger">
-                                About us
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/regulations') }}" class="nav-link js-scroll-trigger">
-                                Custom Regulations
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="{{ url('/shipping') }}" class="nav-link js-scroll-trigger">
-                                Shipping Info
-                            </a>
-                        </li>
 
-                        <li class="nav-item ">
-                            <a href="{{ url('/contact') }}" class="nav-link">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Contact
                             </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                                 <a class="dropdown-item " href="{{ url('/about') }}">
+                                    Company profile
+                                </a>
+                                <a class="dropdown-item " href="{{ url('/contact') }}">
+                                    Contact us
+                                </a> 
+                            </div>
                         </li>
                 </ul>
                 <ul class="ml-lg-auto list-unstyled m-0">
@@ -137,6 +174,12 @@
                     <p class="mb-5 ">
                         Please fill out the required fields below and click on the Submit button to send your message. 
                     </p>
+
+                    @if(Session::has('success'))
+                                <div class="alert alert-success text-center">
+                                    {{Session::get('success')}}
+                                </div>
+                            @endif 
 
                 </div>
             </div> <!-- / .row -->
@@ -408,6 +451,11 @@
                                         <option value="Zambia">Zambia</option>
                                         <option value="Zimbabwe">Zimbabwe</option>
                                      </select>
+                                     @error('fromcountry')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>
@@ -671,6 +719,11 @@
                                         <option value="Zambia">Zambia</option>
                                         <option value="Zimbabwe">Zimbabwe</option>
                                      </select>
+                                     @error('tocountry')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                                 </div>
                             </div>
                         </div>
@@ -687,13 +740,18 @@
                                 </label>
 
                                 <div class="input-group">
-                                    <select class="form-control" name="shippingitem" id="shippingitem">
+                                    <select class="form-control" name="shippingitem" id="shippingitem" >
                                         <option value="Household &amp; Personal Effects" selected="selected">Household &amp; Personal Effects</option>
                                         <option value="Pet">Pet</option>
                                         <option value="Commercial Cargo">Commercial Cargo</option>
                                         <option value="Fine Arts">Fine Arts</option>
                                         <option value="Vehicle">Vehicle</option>
                                     </select>
+                                    @error('shippingitem')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                                 </div>
                             </div>
                         </div>
@@ -709,12 +767,17 @@
                                 </label>
 
                                 <div class="input-group">
-                                    <select class="form-control" name="shippingtype" id="shippingtype">
+                                    <select class="form-control" name="shippingtype" id="shippingtype" required="">
                                         <option value="Door to Door Service" selected="selected">Door to Door Service</option>
                                         <option value="Door to Port">Door to Port</option>
                                         <option value="Port to Port">Port to Port</option>
                                         <option value="Port to Door">Port to Door</option>
                                     </select>
+                                    @error('shippingtype')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                                 </div>
                             </div>
                         </div>
@@ -729,7 +792,7 @@
                                 </label>
 
                                 <div class="input-group">
-                                    <select class="form-control" name="shippingsize" id="shippingsize">
+                                    <select class="form-control" name="shippingsize" id="shippingsize" required="">
                                         <option value="A few Boxes only">A few Boxes only</option>
                                         <option value="Boxes and Furniture">Boxes and Furniture</option>
                                         <option value="Studio">Studio</option>
@@ -741,6 +804,11 @@
                                         <option value="3 Bedroom House">3 Bedroom House</option>
                                         <option value="4+ Bedroom House">4+ Bedroom House</option>
                                     </select>
+                                    @error('shippingsize')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                                 </div>
                             </div>
                         </div>
@@ -755,11 +823,16 @@
                                 </label>
 
                                 <div class="input-group">
-                                    <select class="form-control" name="servicetype" id="servicetype">
+                                    <select class="form-control" name="servicetype" id="servicetype" required="">
                                         <option value="Full Packing Loading &amp; Shipping">Full Packing Loading &amp; Shipping</option>
                                         <option value="Partial packing and shipping">Partial packing and shipping</option>
                                         <option value="Self Pack : Shipping only">Self Pack : Shipping only</option>
                                     </select>
+                                    @error('servicetype')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                                 </div>
                             </div>
                         </div>
@@ -776,6 +849,11 @@
                                 <div class="input-group">
                                     <input class="form-control" name="firstname" id="firstname" required="" placeholder="First name" type="text">
                                 </div>
+                                @error('firstname')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -791,6 +869,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" name="lastname" id="lastname" required="" placeholder="Last name" type="text">
                                 </div>
+                                @error('lastname')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -806,6 +889,11 @@
                                 <div class="input-group">
                                     <input class="form-control" name="subject" id="subject" required="" placeholder="Enter subject" type="text">
                                 </div>
+                                @error('subject')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -821,6 +909,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" id="phone" name="phone" required="" placeholder="1-800-643-4500" type="text">
                                 </div>
+                                @error('phone')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -836,6 +929,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" name="email" id="email" required="" placeholder="john@gmail.com" type="email">
                                 </div>
+                                    @error('email')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -851,6 +949,11 @@
                              <div class="input-group">
                                  <textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="Hi there, I would like to ..."></textarea>
                              </div>
+                             @error('message')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                          </div>
                         </div>
                          <!-- End Input -->
@@ -863,14 +966,6 @@
 
                 <div class="col-lg-6">
                     <!-- form message -->
-                     <div class="row">
-                         <div class="col-12">
-                             <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                 Your message was sent successfully.
-                             </div>
-                         </div>
-                     </div>
-                     <!-- end message -->
                      <!-- Contacts Form -->
                      
                          <div class="row">
@@ -1522,9 +1617,7 @@
  
                          <div class="">
                             <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message">
-                            
-                             <p class="small pt-3">We'll get back to you in 1-2 business days.</p>
-                         </div>
+                          </div>
                      
                      <!-- End Contacts Form -->
                  </div>

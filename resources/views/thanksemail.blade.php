@@ -21,18 +21,6 @@
                                     <div style="border-top: 1px solid #dddddd; width: 557px;"></div>
                                 </a>
 
-                                <p style="object-fit: contain; margin: 12px 0 11px 0;"></p>
-                                <table style="width: auto;">
-                                    <tbody>
-                                        <tr align="middle" style="font-size: 13px; letter-spacing: 1.14px; line-height: normal; font-family: helvetica;">
-                                            <td style="text-align: center;">
-                                                Quote Request from Movingbay.org
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <p></p>
-
                                 <div style="border-top: 1px solid #dddddd; width: 557px;"></div>
 
                                 <p style="text-align: center; margin: 14px 0 10px 0;"></p>
@@ -58,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                                     style="font-family: helvetica; word-wrap: normal; font-size: 16px; color: #ffffff; font-weight: 600; letter-spacing: 1.32px; margin: 0 0 8px 8px; text-decoration: none;"
                                                     target="_blank"
                                                 >
-                                                {{ $fromcountry }} to {{ $tocountry }}
+                                                Thank you so much for your query
                                                 </a>
                                             </td>
                                         </tr>
@@ -68,99 +56,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                     </tbody>
                                 </table>
                                 <p></p>
-                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="margin-top: 36px;">
-                                    <tbody>
-                                        <tr>
-                                            <td
-                                                align="center"
-                                                height="53"
-                                                width="100%"
-                                                style="padding: 15px 40px; font-family: helvetica; font-size: 22px; font-weight: bold; letter-spacing: 1.2px; text-align: center; color: #000;"
-                                            >
-                                            Subject : {{ $subject }}
-                                            </td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
+
                                 <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-bottom:1px solid #ccc;">
                                     <tbody>
                                         <tr>
                                             <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                First name : {{ $fname }}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Last name : {{ $lname }}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Email : {{ $email }}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Phone : {{ $phone }}
+                                                Your query has been noted. Our representative will contact you soon.
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-bottom:1px solid #ccc;">
-                                    <tbody>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Shipping item : {{ $shipitem }}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Shipping Type : {{ $shiptype }}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Shipping Size : {{ $shipsize }}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Service Type : {{ $servicetype }}
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <table border="0" cellpadding="0" cellspacing="0" align="center" style="border-bottom:1px solid #ccc;">
-                                    <tbody>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Origin Address : {{ $address1 }}, {{ $address2 }}, {{ $city }}, {{ $state }}, {{ $country }}, Zip: {{ $zip }}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Destination Address : {{ $daddress1 }}, {{ $daddress2 }}, {{ $dcity }}, {{ $dstate }}, {{ $dcountry }}, Zip: {{ $dzip }}
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="width: 100%; margin-top: 50px;">
-                                    <tbody>
-                                        <tr>
-                                            <td align="center" style="font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                               
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" style="margin-bottom: 56px;">
-                                                
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                              
 
                                 <p style="margin-top: 18px; margin-bottom: 16px;">
                                     <a href="#" target="_blank" data-saferedirecturl="#">
@@ -212,7 +117,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                         style="color: #000000; text-decoration: underline;"
                                         target="_blank"
                                     >
-                                        movingbay.org
+                                    movingbay.org
                                     </a>
                                     .
                                     <br />

@@ -151,7 +151,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-9 col-md-12 col-12 text-center">
                 <div class="page-banner-content">
-                    <h1 class="display-4 font-weight-bold">GET HOUSEHOLD SHIPPING QUOTE</h1>
+                    <h1 class="display-4 font-weight-bold">GET PET SHIPPING QUOTE</h1>
                     <p>Fill up quote form below to get your free moving Quote</p>
                 </div>
             </div>
@@ -175,9 +175,17 @@
                         Please fill out the required fields below and click on the Submit button to send your message. 
                     </p>
 
+                    @if(Session::has('success'))
+                                <div class="alert alert-success text-center">
+                                    {{Session::get('success')}}
+                                </div>
+                            @endif 
+
                 </div>
             </div> <!-- / .row -->
-        <form class="contact_form" action="mail.php"></form>
+        
+        <form method="post" action="{{ route('contact.pet') }}">
+            @csrf
             <div class="row">
 
                 <div class="col-lg-6 col-md-6">
@@ -185,9 +193,6 @@
                     
                     <div class="row">
                         
-
-                        <div class="w-100"></div>
-
                         
                         <!-- Input -->
                         <div class="col-sm-6 mb-6">
@@ -200,6 +205,11 @@
                                 <div class="input-group">
                                     <input class="form-control" name="fname" id="lname" required="" placeholder="First name" type="text">
                                 </div>
+                                @error('fname')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -215,6 +225,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" name="lname" id="lname" required="" placeholder="Last name" type="text">
                                 </div>
+                                    @error('lname')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -228,8 +243,13 @@
                                 </label>
 
                                 <div class="input-group ">
-                                    <input class="form-control" id="phone" name="phone" required="" placeholder="1-800-643-4500" type="text">
+                                    <input class="form-control" id="phone" name="phone" required="" placeholder="Enter phone number" type="text">
                                 </div>
+                                @error('phone')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                     @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -245,13 +265,15 @@
                                 <div class="input-group ">
                                     <input class="form-control" name="email" id="email" required="" placeholder="john@gmail.com" type="email">
                                 </div>
+                                @error('email')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                         <!-- End Input -->
 
-                        <div class="col-sm-12 mb-12">
-                            <h5>Pet Information*</h5>
-                           </div>
 
                            <!-- Input -->
                         <div class="col-sm-6 mb-6">
@@ -262,8 +284,13 @@
                                 </label>
 
                                 <div class="input-group">
-                                    <input class="form-control" name="fname" id="lname" required="" placeholder="First name" type="text">
+                                    <input class="form-control" name="petname" id="petname" required="" placeholder="First name" type="text">
                                 </div>
+                                @error('petname')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -277,11 +304,16 @@
                                 </label>
 
                                 <div class="input-group">
-                                    <select class="form-control" name="input_3" id="input_1_3">
+                                    <select class="form-control" name="species" id="species">
                                         <option value="Dog">Dog</option>
                                         <option value="Cat">Cat</option>
                                         <option value="Other">Other</option>
                                     </select>
+                                    @error('species')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                                 </div>
                             </div>
                         </div>
@@ -298,6 +330,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" name="breed" id="breed" required="" placeholder="Breed name" type="text">
                                 </div>
+                                @error('breed')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -313,6 +350,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" id="weight" name="weight" required="" placeholder="" type="text">
                                 </div>
+                                @error('weight')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -328,6 +370,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" name="age" id="age" required="" placeholder="" type="email">
                                 </div>
+                                @error('age')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -343,6 +390,11 @@
                                 <div class="input-group ">
                                     <input class="form-control" name="length" id="length" required="" placeholder="" type="text">
                                 </div>
+                                @error('length')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -356,8 +408,13 @@
                                 </label>
 
                                 <div class="input-group ">
-                                    <input class="form-control" name="length" id="length" required="" placeholder="" type="text">
+                                    <input class="form-control" name="height" id="height" required="" placeholder="" type="text">
                                 </div>
+                                @error('height')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                         <!-- End Input -->
@@ -373,6 +430,11 @@
                              <div class="input-group">
                                  <textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="Hi there, I would like to ..."></textarea>
                              </div>
+                             @error('message')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                          </div>
                         </div>
                          <!-- End Input -->
@@ -384,20 +446,12 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- form message -->
-                     <div class="row">
-                         <div class="col-12">
-                             <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                 Your message was sent successfully.
-                             </div>
-                         </div>
-                     </div>
-                     <!-- end message -->
+
                      <!-- Contacts Form -->
                      
                          <div class="row">
                             <div class="col-sm-12 mb-12">
-                             <h5>Trip inormation*</h5>
+                             <h5>Origin address*</h5>
                             </div>
                             
 
@@ -408,6 +462,11 @@
                                     <div class="input-group">
                                         <input class="form-control" name="city" id="city" required="" placeholder="Departure City" type="text">
                                     </div>
+                                    @error('city')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                                 </div>
                             </div>
                             <!-- End Input -->
@@ -419,6 +478,11 @@
                                     <div class="input-group">
                                         <input class="form-control" name="state" id="state" required="" placeholder="Departure State" type="text">
                                     </div>
+                                    @error('state')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                                 </div>
                             </div>
                             <!-- End Input -->
@@ -430,6 +494,11 @@
                                     <div class="input-group">
                                         <input class="form-control" name="zip" id="zip" required="" placeholder="Zip code" type="text">
                                     </div>
+                                    @error('zip')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                                 </div>
                             </div>
                             <!-- End Input -->
@@ -687,6 +756,11 @@
                                     <option value="Zambia">Zambia</option>
                                     <option value="Zimbabwe">Zimbabwe</option>
                                  </select>
+                                 @error('country')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                             </div>
                         </div>
                     </div>
@@ -703,8 +777,13 @@
                            <div class="form-group">
 
                                <div class="input-group">
-                                   <input class="form-control" name="city" id="city" required="" placeholder="Arrival City" type="text">
+                                   <input class="form-control" name="dest_city" id="dest_city" required="" placeholder="Arrival City" type="text">
                                </div>
+                               @error('country')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                            </div>
                        </div>
                        <!-- End Input -->
@@ -714,8 +793,13 @@
                            <div class="form-group">
 
                                <div class="input-group">
-                                   <input class="form-control" name="state" id="state" required="" placeholder="Arrival State" type="text">
+                                   <input class="form-control" name="dest_state" id="dest_state" required="" placeholder="Arrival State" type="text">
                                </div>
+                               @error('country')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                            </div>
                        </div>
                        <!-- End Input -->
@@ -725,8 +809,13 @@
                            <div class="form-group">
 
                                <div class="input-group">
-                                   <input class="form-control" name="zip" id="zip" required="" placeholder="Zip code" type="text">
+                                   <input class="form-control" name="dest_zip" id="dest_zip" required="" placeholder="Zip code" type="text">
                                </div>
+                               @error('country')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                            </div>
                        </div>
                        <!-- End Input -->
@@ -735,7 +824,7 @@
                        <div class="col-sm-6 mb-6">
                            <div class="form-group">
                        <div class="input-group ">
-                           <select class="form-control" id="country" name="country" required="">
+                           <select class="form-control" id="dest_country" name="dest_country" required="">
                                <option value="">Arrival Country</option>
                                <option value="Afganistan">Afghanistan</option>
                                <option value="Albania">Albania</option>
@@ -984,6 +1073,11 @@
                                <option value="Zambia">Zambia</option>
                                <option value="Zimbabwe">Zimbabwe</option>
                             </select>
+                            @error('dest_country')
+                                        <span class="alert alert-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                @enderror
                        </div>
                    </div>
                </div>
@@ -1003,9 +1097,8 @@
                           
  
                          <div class="">
-                            <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message">
-                            
-                             <p class="small pt-3">We'll get back to you in 1-2 business days.</p>
+                            <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Query">
+                        
                          </div>
                      
                      <!-- End Contacts Form -->

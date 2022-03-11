@@ -26,7 +26,7 @@
                                     <tbody>
                                         <tr align="middle" style="font-size: 13px; letter-spacing: 1.14px; line-height: normal; font-family: helvetica;">
                                             <td style="text-align: center;">
-                                                Quote Request from Movingbay.org
+                                                Pet Moving Quote Request from Movingbay.org
                                             </td>
                                         </tr>
                                     </tbody>
@@ -58,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                                     style="font-family: helvetica; word-wrap: normal; font-size: 16px; color: #ffffff; font-weight: 600; letter-spacing: 1.32px; margin: 0 0 8px 8px; text-decoration: none;"
                                                     target="_blank"
                                                 >
-                                                {{ $fromcountry }} to {{ $tocountry }}
+                                                Trip from {{ $city }} to {{ $dcity }}
                                                 </a>
                                             </td>
                                         </tr>
@@ -77,7 +77,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                                 width="100%"
                                                 style="padding: 15px 40px; font-family: helvetica; font-size: 22px; font-weight: bold; letter-spacing: 1.2px; text-align: center; color: #000;"
                                             >
-                                            Subject : {{ $subject }}
+                                            Subject : {{ $message }}
                                             </td>
                                         </tr>
                                         
@@ -111,22 +111,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                     <tbody>
                                         <tr>
                                             <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Shipping item : {{ $shipitem }}
+                                                Pet name : {{ $pname }}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Shipping Type : {{ $shiptype }}
+                                                Species : {{ $species }}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Shipping Size : {{ $shipsize }}
+                                                Breed : {{ $breed }}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Service Type : {{ $servicetype }}
+                                                Weight : {{ $weight }}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
+                                                Age : {{ $age }}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
+                                                Length : {{ $length }}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
+                                                Height : {{ $height }}
                                             </td>
                                         </tr>
                                     </tbody>
@@ -135,12 +150,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8457db', end
                                     <tbody>
                                         <tr>
                                             <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Origin Address : {{ $address1 }}, {{ $address2 }}, {{ $city }}, {{ $state }}, {{ $country }}, Zip: {{ $zip }}
+                                                Origin info : {{ $city }}, {{ $state }}, {{ $country }}, Zip: {{ $zip }}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center" style="padding: 15px 110px; font-family: helvetica; font-size: 16px; text-align: center; color: #000000;">
-                                                Destination Address : {{ $daddress1 }}, {{ $daddress2 }}, {{ $dcity }}, {{ $dstate }}, {{ $dcountry }}, Zip: {{ $dzip }}
+                                                Destination info : {{ $dcity }}, {{ $dstate }}, {{ $dcountry }}, Zip: {{ $dzip }}
                                             </td>
                                         </tr>
                                     </tbody>
