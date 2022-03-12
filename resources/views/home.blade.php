@@ -5,12 +5,12 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="it">
-  <meta name="keywords" content="Rapoo,creative, agency, startup,onepage, clean, modern,business, company,it">
+  <meta name="description" content="Movingbay is India's most trusted relocation service. We Provide all-inclusive services for shipping your pets and household goods">
+  <meta name="keywords" content="pet shipping services,pet shipping india,pet shipping cost estimate,pet shipping companies,international pet moving,domestic pet relocation,household moving services,household shipping company,household shipping international,employee relocation,shipping from USA to India,shipping from Canada to India">
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay: Packers and Movers | Pet moving</title>
+  <title>MovingBay | Pet shipping | Household good moving</title>
 
   <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
 
@@ -196,14 +196,14 @@
                 <div class="col-md-12 col-lg-8">
                    <div class="banner-content text-center text-lg-left">
                         <!-- Heading -->
-                        <h1 class="display-4 mb-4 ">
-                            International<br>  Household<br> &amp; Pet Shipping
-                        </h1>
+                        <h2 class="display-4 mb-4 ">
+                            International<br>  Pet Shipping &amp;<br>  Household Good Moving
+                        </h2>
 
                         <!-- Subheading -->
                         <p class="lead mb-5">
-                            Want to ship your household stuff to India? <br>
-                            Just fill our quote form and get free Shipping quotes for Shipping household goods to India
+                            Want to ship your pets or household stuff to India or abroad? <br>
+                            Just fill your requirement details and get free shipping quote.
                         </p>
 
                         <!-- Button -->
@@ -251,7 +251,7 @@
                     <div class="section-heading">
                         <!-- Heading -->
                         <h2 class="section-title ">
-                            Explore Our Services
+                            Explore Our Core Services
                         </h2>
 
                         <!-- Subheading -->
@@ -261,28 +261,31 @@
             </div> <!-- / .row -->
 
             <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="images/process/process-2.jpg" alt="Pet Relocation" class="img-fluid">
+
+                        <h3>Pet Relocation</h3>
+                        <p>If you’re ready to move with your pet(s), you want to be certain they’ll be handled with the care and compassion you show for them daily.</p>
+                        <a href="{{ url('/pet-relocation') }}" class="btn btn-info btn-outline">Read more</a>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="images/process/process-1.jpg" alt="House moving" class="img-fluid">
 
                         <h3>Household good Moving</h3>
                         <p>At Movingbay, we’ve helped individuals move to exciting new locations all over the world, so let us know how we can help.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-2.jpg" alt="Pet Relocation" class="img-fluid">
-
-                        <h3>Pet Relocation</h3>
-                        <p>If you’re ready to move with your pet(s), you want to be certain they’ll be handled with the care and compassion you show for them daily.</p>
+                        <a href="{{ url('/household-relocation') }}" class="btn btn-info btn-outline">Read more</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
                         <img src="images/process/process-3.jpg" alt="Relocation Services" class="img-fluid">
 
-                        <h3>Relocation Services</h3>
+                        <h3>Employee Relocation Services</h3>
                         <p>Our services take care of everything, from packing to relocation, immigration, short or long term home finding and orientation, we do it all</p>
+                        <a href="{{ url('/employee-relocation') }}" class="btn btn-info btn-outline">Read more</a>
                     </div>
                 </div>
             </div>
@@ -291,65 +294,67 @@
 
     <section class="section" id="services-2">
         <div class="container">
+        <div class="row justify-content-center mb-4">
+                <div class="col-md-8 col-lg-6 text-center">
+                    <div class="section-heading">
+                        <!-- Heading -->
+                        <h2 class="section-title ">
+                            Get A Free Moving Quote<br/>
+                        <small>Shifting within and between countries </small>
+                        </h2>
+
+                        <!-- Subheading -->
+                        
+                    </div>
+                </div>
+            </div> <!-- / .row -->
             <div class="row">
-                <div class="col-lg-3 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <img src="images/service/service1.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Household Shipping</h3>
-                        <p>We provide all-inclusive services for shipping your household goods</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <img src="images/service/service2.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Pet Shipping</h3>
-                        <p>Widely regarded as one of India's most trusted pet shipping experts.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 mb-30">
+                <div class="col-lg-2 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
                         <img src="images/service/service3.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Furniture Rentals</h3>
-                        <p>Use our relocation furniture rental if you're moving for a job.</p>
+                        <h4 style="color:#ffffff;">Furniture Rentals</h4>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6 col-md-6 ">
+                <div class="col-lg-2 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service4.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Long &amp; Short Distance</h3>
-                        <p>Movingbay has been providing customers with reliable and professional long distance moving services.</p>
+                        <h4 style="color:#ffffff;">Long &amp; Short Distance</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 ">
+                <div class="col-lg-2 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service5.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>International Moving</h3>
-                        <p>Get free quotes within minutes with best prices for Middle east, US and Europe sector.</p>
+                        <h4 style="color:#ffffff;">International Moving</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 ">
+                <div class="col-lg-2 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service6.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Car Moving</h3>
-                        <p>As a move specialist will help you navigate the car transportation paperwork, scheduling and billing</p>
+                        <h4 style="color:#ffffff;">Car Moving</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 ">
+                <div class="col-lg-2 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service8.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Moving &amp; Hauling</h3>
-                        <p>Full line of services for homeowners, businesses, and contractors.</p>
+                        <h4 style="color:#ffffff;">Moving &amp; Hauling</h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6 ">
+                <div class="col-lg-2 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <img src="images/service/service7.png" alt="Household Shipping" width="90px" height="90px" class="img-fluid">
-                        <h3>Corporate Relocation</h3>
-                        <p>Solve all the challenges of cross-border moves, from small businesses to large-scale multinationals.</p>
+                        <h4 style="color:#ffffff;">Corporate Relocation</h4>
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8 col-lg-6 text-center">
+                <a href="https://wa.me/918618173141?text=Movingbay.org:%20<%20Please-type-your-query-here>." class="btn btn-trans-white btn-sm btn-circled"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+</svg> Get Quote in WhatsApp</a>
+                </div>
+            </div>
+            
         </div>
     </section>
 
@@ -362,14 +367,14 @@
            <div class="row align-items-center">
                 <div class="col-lg-4 col-sm-12 col-md-12">
                     <div class="section-heading testimonial-heading">
-                        <h1>What they say <br>about us</h1>
+                        <h1 style="color:#7577ec;">What they say <br>about us</h1>
                         <p>Movingbay offers a truly joined up partnership giving our clients the commitment of a successful relocation, provided through clear communication and strict compliance.</p>
                     </div>
                 </div>
                 <div class="col-lg-8 col-sm-12 col-md-12">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="test-inner ">
+                            <div class="test-inner" style="border-left: 3px solid #7577ec;">
                                <div class="test-author-thumb d-flex">
                                    <div class="test-author-info">
                                        <h4>Mr. Jane Allwyn</h4>
@@ -377,13 +382,13 @@
                                    </div>
                                </div>
 
-                               Relocation is not just about moving to a new place; it’s also about adapting and adjusting to a new way of life, location. Movingbay is our trusted relocation assistance company. One of their key strengths is the support to their clients.
+                               Relocation just about adapting and adjusting to a new way of life, location. Movingbay is our trusted relocation assistance company. One of their key strengths is the support to their clients.
 
                                 <i class="fa fa-quote-right"></i>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="test-inner ">
+                            <div class="test-inner" style="border-left: 3px solid #7577ec;">
                                <div class="test-author-thumb d-flex">
                                    <div class="test-author-info">
                                        <h4>Mr. Hamad Hussain</h4>

@@ -910,8 +910,9 @@ h5.subtitle {
 }
 
 .web-service-block:hover {
-  background: #fff;
-  border-color: transparent;
+  background: #8ec642;
+  border: 1px solid #fff;
+  opacity:0.8;
 }
 
 .web-service-block:hover i {
