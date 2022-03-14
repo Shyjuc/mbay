@@ -430,12 +430,12 @@
                         </div>
                         <div class="single-blog">
                             <div class="blog-content">
-                                <h6> 30 January 2022</h6>
-                                <a href="#">
-                                    <h3 class="card-title">Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
+                                <h6> 13 March 2022</h6>
+                                <a href="{{ url('/pet-shipping-tips-preparing-your-international-travel') }}">
+                                    <h3 class="card-title">Top 10 pet shipping tips while preparing your international travel</h3>
                                 </a>
-                                <p>Whether you are ready to move or just beginning the process, our 8-week moving planner includes the tips you need to plan a seamless transition.</p>
-                                <a href="#" class="read-more">Read More</a>
+                                <p>Whether you are ready to move or just beginning the process, our moving planner includes the tips you need to plan a seamless transition.</p>
+                                <a href="{{ url('/pet-shipping-tips-preparing-your-international-travel') }}" class="read-more">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -449,11 +449,11 @@
                         <div class="single-blog">
                             <div class="blog-content">
                                 <h6> 1 February 2022</h6>
-                                <a href="#">
-                                    <h3 class="card-title">Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
+                                <a href="{{ url('/relocation-tips-tricks-household-goods') }}">
+                                    <h3 class="card-title">Most Useful relocation tips& tricks for successful household shifting in 2022</h3>
                                 </a>
-                                <p>Whether you are ready to move or just beginning the process, our 8-week moving planner includes the tips you need to plan a seamless transition.</p>
-                                <a href="#" class="read-more">Read More</a>
+                                <p>As safety and security of the goods is the ultimate concern of the moving people, planning a smooth and safe moving process should be utmost priority</p>
+                                <a href="{{ url('/relocation-tips-tricks-household-goods') }}" class="read-more">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -466,11 +466,12 @@
                         </div>
                         <div class="single-blog">
                             <div class="blog-content">
-                                <a href="#">
+                            <h6> 15 January 2021</h6>
+                                <a href="{{ asset('images/Movingbay_Checklist.pdf') }}">
                                     <h3 class="card-title">Moving Tips And Checklist: How To Plan Relocation in 1 Month</h3>
                                 </a>
                                 <p>Whether you are ready to move or just beginning the process, our 8-week moving planner includes the tips you need to plan a seamless transition.</p>
-                                <a href="#" class="read-more">Read More</a>
+                                <a href="{{ asset('images/Movingbay_Checklist.pdf') }}" class="read-more">Download Checklist</a>
                             </div>
                         </div>
                     </div>

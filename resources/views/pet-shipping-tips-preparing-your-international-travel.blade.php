@@ -10,8 +10,9 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay Relocation Services | Shipping Pets and Household goods to India</title>
+  <title>Top 10 pet shipping tips while preparing your international travel | Movingbay</title>
 
+  <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
   <!-- Animate Css -->
@@ -145,85 +146,10 @@
 <!-- HERO
 ================================================== -->
 
-<section class="banner-area py-7">
-        <!-- Content -->
-        <div class="container" style="padding-top:60px;">
-            <div class="row  align-items-center">
-                <div class="col-md-12 col-lg-7 text-center text-lg-left">
-                    <div class="main-banner">
-                        <!-- Heading -->
-                        <h4 class="mb-2">Your Trustworthy Moving Partner</h4>
-                        <h1 class="display-4 mb-4 font-weight-normal">
-                            Ensure Safety and Care while moving your pet
-                        </h1>
-
-                        <!-- Subheading -->
-                        
-                        <p class="lead mb-4">
-                        Relocating the pet you adore and take care makes you anxious as you can’t see them in any physical problem throughout the transportation. We have the whole thing that is required to relocate your pet-treasure with greatest care and feelings including veterinary check-ups, vehicles, appropriate hydration systems and pet hygienic procedures.
-                        </p>
-                        <p class="lead mb-0">Our specialized packers and movers move all the household items with awareness into the preferred location. Be it household pets like dogs, cats, birds etc or big animals we manage all pets shipping without difficulty irrespective of their size and kindliness. </p>
-                        <p class="mb-0">
-                            <a href="#" target="_blank" class="btn btn-primary btn-circled">
-                                Get a Quote
-                            </a>
-                        </p>
-
-
-                    </div>
-                </div>
-
-                <div class="col-lg-5 d-none d-lg-block">
-                    <div class="banner-img-block">
-                        <img src="images/banner-img-5.png" alt="banner-img" class="img-fluid">
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
-
     <section class="section bg-grey" id="feature">
         <div class="container">
             <div class="row justy-content-center">
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-thumb-up"></i>
-                        </div>
-                        <h4 class="mb-2">Get right advice</h4>
-                        <p>Our team are experts in matching you with the right provider.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-cup"></i>
-                        </div>
-                        <h4 class="mb-2">Recognised for excellence</h4>
-                        <p>We've been awarded for our high rate of customer satisfaction.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-wallet"></i>
-                        </div>
-                        <h4 class="mb-2">Compare the best</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-dashboard"></i>
-                        </div>
-                        <h4 class="mb-2">Premium Services</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
-                    </div>
-                </div>
+                
             </div>
         </div> <!-- / .container -->
     </section>
@@ -244,18 +170,32 @@
 
                 <div class="col-lg-8 pl-4">
                     <div class="service-content">
-                        <p style="text-align: justify;">Are you shifting to another destination? Is the task of moving all the things becoming scary? Packing and relocating to a new place is truly an exigent job. Just like human beings, pets too take time to become acquainted and comfortable in the new home. So, while you plan a household shifting along with pet relocation, ensure you follow these useful tips to move your pet to a new home.</p>
-                        <h1>Why Moving Bay?</h1>
-                        <p style="text-align: justify;">Our team consists of highly experienced and professional pet movers who help you with quality shipping services. You can trust us because we have successfully served various clients for shipping their pets all around the world. We have a vast transport network to help you in relocating your pet anywhere in the world without any disturbance. We are always ready to serve you with our high-quality services, whether you want to relocate your pet by air, by road, or by Sea. We make sure that they travel comfortably with our best facilities. We have a doorstep pickup and delivery service and will take care of all safety standards during the transit.</p>
-                        <h1>How it works?</h1>
-                        <p style="text-align: justify;">All of our global partners have years of experience in pet care and transportation to guarantee a safe and stress less move for both you and your pet. At MovingBay, we ensure your pet’s transition is as quick and comfortable as yours. To be sure you comply with all regulations; we provide advice and assistance with the necessary pet travel and legal arrangements.</p>
-                        <p style="text-align: justify;">We follow a personalized approach to handle pets through a mix of specialized care and attention. To make the process of relocating stress free for the pet and the pet owner, we carefully take care of every detail, from immunization to making the pet ready for the move</p>
-                        <p style="text-align: justify;">Our pet relocation services are not limited to, but include:</p>
-                        <ul>
-                            <li>Training of pet for relocation services </li>
-                            <li>Customs clearance for international relocation </li>
-                            <li>Support for immunization and Customized Travel Cage </li>
-                        </ul>
+                        <h1>Top 10 pet shipping tips while preparing your international travel</h1>
+                        <p style="text-align: justify;">During your international travel preparation, Pet relocation must be planned in such a manner that your lovely pet remains comfortable throughout the moving procedure. Moreover, its safety is also a priority. So, you must hire a moving company or pet relocation services that have the experience as well as the facilities to safely move your pet to your desired location. If you have decided to move them through a service provider, then always choose reliable packers and movers offering the service of pet relocation in India.</p>
+                        <h2>1. Get informed about the rules relating to pet relocation</h2>
+                        <p style="text-align: justify;">When you are planning a pet relocation along with your household shifting to a new city or country, it is important for you to understand the rules and regulations relating to pets applicable there. Several state governments ask for a medical certificate from a recognized veterinarian and medical records displaying complete vaccinations. In some locations, a specific breed of cats, dogs, rodents, and birds are banned about which you must know before you take your pet along with you</p>
+                        <h2>2. Appointment with the veterinarian for regular health check up</h2>
+                        <p style="text-align: justify;">As soon as you plan a pet relocation, you must take him to your veterinarian for regular health check up and to get the vaccinations done. Ask for some extra medicines in advance as you might need them during the relocation. This exercise will ensure the good health of your vet and prepare you to meet any kind of problems in the transit.</p>
+                        <h2>3. Collect all necessary medical records of the pet</h2>
+                        <p style="text-align: justify;">When travelling with your pet(s), there may be animal health requirements specific for that destination. As soon as you know your travel details, contact your local veterinarian to assist with the pet travel process. Ensure that you take all the medical records of your pet along with you to the new city or country as you may need them for references for future purposes. These records will help his new vet understand his medical history better. Also, keep the address and contact numbers of the nearby vet hospitals handy with you for emergencies.</p>
+                        <h2>4. Plan for the moving day</h2>
+                        <p style="text-align: justify;">Just like home relocation, you need to make proper plans for the pet moving day for the successful execution of this complicated procedure</p>
+                        <p><b>Arrangement for pet supplies:</b> Keep these pet supplies with you - medications, leash, carrier, food, water, treats, bowls, and waste bags as you may need them during the moving.</p>
+                        <p><b>Spots for bathroom and food:</b> Look for places in your journey for the stoppage that allows pets to come with you. Breaks during the trip are essential for your pet as he might feel uncomfortable staying in the car for long and need fresh air.</p>
+                        <h2>5. Safe place for the pet on moving day</h2>
+                        <p style="text-align: justify;">As the home becomes a mess when you are relocating to another city, it is better to keep your pet at a safe place on the day of moving so that he doesn’t get hurt while moving things around. You can keep them in an empty room or backyard under the eyes of a trusted person or you can leave them with a family member or friend.</p>
+                        <h2>6. Train your pet for the moving</h2>
+                        <p style="text-align: justify;">When making travel decisions, choose what is safest and most comfortable for your pet. For instance, unless you'll be able to spend a lot of time with your dog, they'll probably be happier at home than tagging along on your trip. But if you have decided it's best to bring your pet along, you need to consider all difficulties. Plan a move for your pet that is comfortable and safe. You can keep them in the backseat tied by a seatbelt or tie them with a harness so that they remain in one place. If your pet is vulnerable to motion sickness during travel, then keep them empty stomach and give plenty of water. Keep your car cool as it keeps them happy.</p>
+                        <h2>7. Arrangements to make new home comfortable for them</h2>
+                        <p style="text-align: justify;">Bringing home a dog or a cat for the first time can be a special but daunting time for both you and your pet. A new place is full of surprises for pets as well. They take time to adjust to the new environment and might take some days to become comfortable in your new home. Here are some quick tips that will help you make your new abode happy and comfortable for your furry friends.</p>
+                        <p>Before bringing a puppy home, choose a room for your puppy where they can be kept for the first few weeks to adjust to their new surroundings and feel safe and comfortable</p>
+                        <p>Pet-proof your new house: Give a closer look to your new home and pet-proof the areas that might be dangerous for them. It’s also very important to be aware of potential hazards around the home as puppies and kittens can get into very small spaces</p>
+                        <h2>8. Update your new address on the pet’s collar</h2>
+                        <p style="text-align: justify;">Most pet owners prepare themselves in advance to meet any unforeseen circumstances. They put ID tags, microchips, and other methods of identification on the bodies of their pets so that they can be easily tracked down in case they get lost somewhere.</p>
+                        <h2>9. Give your pet plenty of rest stops</h2>
+                        <p style="text-align: justify;">Stop frequently to allow your pet to exercise and eliminate. But never permit your pet to leave the car without a collar, ID tag and leash.</p>
+                        <h2>10. If you decide to fly with your pet, choose the cabin when possible</h2>
+                        <p style="text-align: justify;">If transporting your pet by air is the only option, find out whether they can travel in the cabin with you. Most airlines will allow you to take a cat or small dog in the cabin for an additional fee. But you must call the airline well in advance; there are limits to the number of animals allowed in the cabin</p>
                     </div>
                 </div>
             </div>

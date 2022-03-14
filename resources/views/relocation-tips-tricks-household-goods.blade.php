@@ -10,8 +10,9 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay Relocation Services | Shipping Pets and Household goods to India</title>
+  <title>Most Useful relocation tips& tricks for successful household shifting in 2022< | Movingbay</title>
 
+  <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
   <!-- Animate Css -->
@@ -145,85 +146,10 @@
 <!-- HERO
 ================================================== -->
 
-<section class="banner-area py-7">
-        <!-- Content -->
-        <div class="container" style="padding-top:60px;">
-            <div class="row  align-items-center">
-                <div class="col-md-12 col-lg-7 text-center text-lg-left">
-                    <div class="main-banner">
-                        <!-- Heading -->
-                        <h4 class="mb-2">Your Trustworthy Moving Partner</h4>
-                        <h1 class="display-4 mb-4 font-weight-normal">
-                            Ensure Safety and Care while moving your pet
-                        </h1>
-
-                        <!-- Subheading -->
-                        
-                        <p class="lead mb-4">
-                        Relocating the pet you adore and take care makes you anxious as you can’t see them in any physical problem throughout the transportation. We have the whole thing that is required to relocate your pet-treasure with greatest care and feelings including veterinary check-ups, vehicles, appropriate hydration systems and pet hygienic procedures.
-                        </p>
-                        <p class="lead mb-0">Our specialized packers and movers move all the household items with awareness into the preferred location. Be it household pets like dogs, cats, birds etc or big animals we manage all pets shipping without difficulty irrespective of their size and kindliness. </p>
-                        <p class="mb-0">
-                            <a href="#" target="_blank" class="btn btn-primary btn-circled">
-                                Get a Quote
-                            </a>
-                        </p>
-
-
-                    </div>
-                </div>
-
-                <div class="col-lg-5 d-none d-lg-block">
-                    <div class="banner-img-block">
-                        <img src="images/banner-img-5.png" alt="banner-img" class="img-fluid">
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
-
     <section class="section bg-grey" id="feature">
         <div class="container">
             <div class="row justy-content-center">
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-thumb-up"></i>
-                        </div>
-                        <h4 class="mb-2">Get right advice</h4>
-                        <p>Our team are experts in matching you with the right provider.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-cup"></i>
-                        </div>
-                        <h4 class="mb-2">Recognised for excellence</h4>
-                        <p>We've been awarded for our high rate of customer satisfaction.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-wallet"></i>
-                        </div>
-                        <h4 class="mb-2">Compare the best</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-dashboard"></i>
-                        </div>
-                        <h4 class="mb-2">Premium Services</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
-                    </div>
-                </div>
+                
             </div>
         </div> <!-- / .container -->
     </section>
@@ -238,25 +164,27 @@
             <div class="row ">
                 <div class="col-lg-4">
                     <div class="service-img">
-                        <img src="images/blog-lg.jpg" alt="" class="img-fluid">
+                        <img src="images/blog-lg2.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-8 pl-4">
                     <div class="service-content">
-                        <p style="text-align: justify;">Are you shifting to another destination? Is the task of moving all the things becoming scary? Packing and relocating to a new place is truly an exigent job. Just like human beings, pets too take time to become acquainted and comfortable in the new home. So, while you plan a household shifting along with pet relocation, ensure you follow these useful tips to move your pet to a new home.</p>
-                        <h1>Why Moving Bay?</h1>
-                        <p style="text-align: justify;">Our team consists of highly experienced and professional pet movers who help you with quality shipping services. You can trust us because we have successfully served various clients for shipping their pets all around the world. We have a vast transport network to help you in relocating your pet anywhere in the world without any disturbance. We are always ready to serve you with our high-quality services, whether you want to relocate your pet by air, by road, or by Sea. We make sure that they travel comfortably with our best facilities. We have a doorstep pickup and delivery service and will take care of all safety standards during the transit.</p>
-                        <h1>How it works?</h1>
-                        <p style="text-align: justify;">All of our global partners have years of experience in pet care and transportation to guarantee a safe and stress less move for both you and your pet. At MovingBay, we ensure your pet’s transition is as quick and comfortable as yours. To be sure you comply with all regulations; we provide advice and assistance with the necessary pet travel and legal arrangements.</p>
-                        <p style="text-align: justify;">We follow a personalized approach to handle pets through a mix of specialized care and attention. To make the process of relocating stress free for the pet and the pet owner, we carefully take care of every detail, from immunization to making the pet ready for the move</p>
-                        <p style="text-align: justify;">Our pet relocation services are not limited to, but include:</p>
-                        <ul>
-                            <li>Training of pet for relocation services </li>
-                            <li>Customs clearance for international relocation </li>
-                            <li>Support for immunization and Customized Travel Cage </li>
-                        </ul>
-                    </div>
+                        <h1>Most Useful relocation tips& tricks for successful household shifting in 2022</h1>
+                        <p style="text-align: justify;">Moving is a part of life. And whether you move often or are packing up your bags for the first time in a long time, it’s a notoriously stressful process that can take its toll on even the best of planners. </p>
+                        <p style="text-align: justify;">Moving hacks are all about making things just a bit easier on yourself. Follow the tips below, and you’ll see that maybe your move isn’t quite as bad as you expected it to be.</p>
+                        <h2>1. Sort things by category</h2>
+                        <p style="text-align: justify;">Instead of spending a day cleaning out your entire bedroom, spend an afternoon sorting through every article of clothing you own. Scour every coat closet, dirty clothes hamper, and laundry room until you’ve got all your clothes in one place. Then sort. Do the same thing for books, shoes, important papers, and the like.</p>
+                        <h2>2. Plan in Advance</h2>
+                        <p style="text-align: justify;">Start in-depth research on relocation companies as soon as you decide to move abroad. Getting the quotes and estimates for goods relocation from various global movers and packers will take time. A reliable transportation company will send an assessor to help you calculate the number of items that actually need to be picked and transferred.</p>
+                        <h2>3. Pick the right moving day</h2>
+                        <p style="text-align: justify;">Hire your movers at least a month out so you can plan accordingly. If you have a flexible schedule, play around with potential moving dates and try to find the cheapest time of month to make an appointment. Moving companies are busiest on weekends, so if you can skip the Saturday chaos and schedule your move for a Tuesday, you might get a significant discount.</p>
+                        <h2>4. Find Best Relocation Company</h2>
+                        <p style="text-align: justify;">Before you leave for your new destination, you need to have peace of mind regarding the transfer of your home items. During your search, you should closely consider the professionalism and efficiency of a removal company. Also, check out what exactly their services include. Contact us to get the best quote</p>
+                        <h2>5. Get Your Belongings Insured</h2>
+                        <p style="text-align: justify;">A quote from a reliable moving company will also include insurance to cover losses or damage that may happen during transit. Make sure that all your goods are insured before you book a transfer. You can also get in touch with your home insurance provider to see if your existing policy would cover the contents when they are packed. Don’t forget to purchase a good global health insurance policy before you make the move. This will give you the much-needed peace of mind during your overseas stay.</p>
+                        <h2>6. Create a master moving to-do list</h2>
+                        <p style="text-align: justify;">When you move homes, you inevitably end up having enormous different things to do and remember. Don’t let all these tasks and important reminders, no matter how seemingly obvious, slip your mind. Write them down somewhere. Put them in the Notes app on your phone or
                 </div>
             </div>
         </div>

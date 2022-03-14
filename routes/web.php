@@ -34,6 +34,8 @@ Route::view('/pet-shipping', 'pet-shipping');
 Route::view('/contact', 'contact');
 Route::view('/pet-relocation', 'pet-relocation');
 Route::view('/household-relocation', 'household-good-relocation');
+Route::view('/pet-shipping-tips-preparing-your-international-travel', 'pet-shipping-tips-preparing-your-international-travel');
+Route::view('/relocation-tips-tricks-household-goods', 'relocation-tips-tricks-household-goods');
 
 Route::get('/contact', [ContactUsFormController::class, 'createForm']);
 
