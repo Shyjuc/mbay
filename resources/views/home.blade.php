@@ -47,7 +47,7 @@
                 <div class="col-lg-2">
                     <div class="logo d-none d-lg-block">
                         <!-- Brand -->
-                        <a class="navbar-brand js-scroll-trigger" href="index.html">
+                        <a class="navbar-brand js-scroll-trigger" href="{{ url('/') }}">
                             <img src="images/blue-green-logo.png" alt="" class="img-fluid">
                         </a>
                     </div>
@@ -95,84 +95,7 @@
                 <!-- Collapse -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <!-- Links -->
-                    <ul class="navbar-nav ">
-                    <li class="nav-item ">
-                            <a href="{{ url('/') }}" class="nav-link js-scroll-trigger">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Services
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                                 <a class="dropdown-item " href="{{ url('/pet-relocation') }}">
-                                    Pet Relocation
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/household-relocation') }}">
-                                    Household good relocation
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/employee-relocation') }}">
-                                    Employee Relocation
-                                </a> 
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Moving to
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                            <a class="dropdown-item " href="{{ url('/moving-to-india') }}">
-                                    INDIA
-                                </a>
-                                 <a class="dropdown-item " href="{{ url('/moving-to-usa') }}">
-                                    USA
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/moving-to-europe') }}">
-                                    EUROPE
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/moving-to-gcc') }}">
-                                    GCC
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/moving-to-canada') }}">
-                                    CANADA
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/moving-to-south-america') }}">
-                                    SOUTH AMERICA
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/moving-to-australia') }}">
-                                    AUSTRALIA
-                                </a> 
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Quotes
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                                 <a class="dropdown-item " href="{{ url('/quotes') }}">
-                                    Household Shipping
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/pet-shipping') }}">
-                                    Pet Shipping
-                                </a> 
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Contact
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                                 <a class="dropdown-item " href="{{ url('/about') }}">
-                                    Company profile
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/contact') }}">
-                                    Contact us
-                                </a> 
-                            </div>
-                        </li>
-                    </ul>
+                    @include('navmenu')
 
                     <ul class="ml-lg-auto list-unstyled m-0">
                         <li><a href="https://wa.me/918618173141?text=Movingbay.org:%20<%20Please-type-your-query-here>." class="btn btn-trans-white btn-circled"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -274,7 +197,7 @@
                     <div class="process-block">
                         <img src="images/process/process-1.jpg" alt="House moving" class="img-fluid">
 
-                        <h3>Household good Moving</h3>
+                        <h3>Household goods Moving</h3>
                         <p>At Movingbay, we’ve helped individuals move to exciting new locations all over the world, so let us know how we can help.</p>
                         <a href="{{ url('/household-relocation') }}" class="btn btn-info btn-outline">Read more</a>
                     </div>
@@ -450,7 +373,7 @@
                             <div class="blog-content">
                                 <h6> 1 February 2022</h6>
                                 <a href="{{ url('/relocation-tips-tricks-household-goods') }}">
-                                    <h3 class="card-title">Most Useful relocation tips& tricks for successful household shifting in 2022</h3>
+                                    <h3 class="card-title">Most Useful relocation tips &amp; tricks for successful household shifting in 2022</h3>
                                 </a>
                                 <p>As safety and security of the goods is the ultimate concern of the moving people, planning a smooth and safe moving process should be utmost priority</p>
                                 <a href="{{ url('/relocation-tips-tricks-household-goods') }}" class="read-more">Read More</a>
@@ -480,115 +403,7 @@
         </div>
     </section>
 
- <footer class="section " id="footer">
-        <div class="overlay footer-overlay"></div>
-        <!--Content -->
-        <div class="container">
-            <div class="row justify-content-start">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="footer-widget">
-                        <!-- Brand -->
-                        <a href="index.html" class="footer-brand text-white">
-                            <img src="images/blue-green-logo.png" alt="" class="img-fluid">
-                        </a>
-                        <p>MovingBay was formed by a group of Industry Experts with vast experience of handling any aspect of Relocation Requirement.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 ml-lg-auto col-sm-12">
-                    <div class="footer-widget">
-                        <h3>Account</h3>
-                        <!-- Links -->
-                        <ul class="footer-links ">
-                            <li>
-                                <a href="#">
-                                    Terms and conditions
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Privacy policy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Help and support
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Frequently Asked Question
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-widget">
-                        <h3>About</h3>
-                        <!-- Links -->
-                        <ul class="footer-links ">
-                            <li>
-                                <a href="#">
-                                    Services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Pricing
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Products Shop
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-widget">
-                        <h3>Socials</h3>
-                        <!-- Links -->
-                        <ul class="list-unstyled footer-links">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
-                            <li>
-                            <a href="#"><i class="fab fa-twitter"></i>Twitter
-                            </a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i>linkedin
-                            </a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i>YouTube
-                            </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-
-            <div class="row text-right pt-5">
-                <div class="col-lg-12">
-                    <!-- Copyright -->
-                    <p class="footer-copy ">
-                        &copy; Copyright <span class="current-year">Movingbay.org</span> All rights reserved.
-                    </p>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </footer>
+    @include('footer')
 
 
     <!--  Page Scroll to Top  -->
