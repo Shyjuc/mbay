@@ -120,7 +120,7 @@
                    <div class="banner-content text-center text-lg-left">
                         <!-- Heading -->
                         <h2 class="display-4 mb-4 ">
-                            International<br>  Pet Shipping &amp;<br>  Household Good Moving
+                            International<br>  Pet Shipping &amp;<br>  Household Goods Moving
                         </h2>
 
                         <!-- Subheading -->
