@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<url>
+  <loc>https://movingbay.org/</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/pet-relocation</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/household-relocation</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/employee-relocation</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/moving-to-india</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/moving-to-usa</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/moving-to-europe</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/moving-to-canada</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/moving-to-australia</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/quotes</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/pet-shipping</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/about</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/contact</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/pet-shipping-tips-preparing-your-international-travel</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/relocation-tips-tricks-household-goods</loc>
+  <lastmod>2022-03-21T04:33:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://movingbay.org/images/Movingbay_Checklist.pdf</loc>
+  <lastmod>2022-03-14T10:30:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>
