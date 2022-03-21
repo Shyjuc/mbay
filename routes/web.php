@@ -50,6 +50,8 @@ Route::post('/quotes', [ContactUsFormController::class, 'QuotesForm'])->name('co
 Route::post('/pet-shipping', [ContactUsFormController::class, 'PetForm'])->name('contact.pet');
 Route::post('/', [ContactUsFormController::class, 'GetaquoteForm'])->name('contact.getquote');
 
+//Route::view('/sitemap', 'sitemap')->header('Content-Type', 'application/xml');
+
 Route::get('/sitemap', function()
 {
    return Response::view('sitemap')->header('Content-Type', 'application/xml');
