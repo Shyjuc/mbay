@@ -19,7 +19,7 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay | Pet shipping | Household good moving</title>
+  <title>MovingBay | Pet shipping | Household goods moving</title>
 
   <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
 

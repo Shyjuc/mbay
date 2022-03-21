@@ -10,7 +10,9 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay Relocation Services | Shipping Pets and Household goods to India</title>
+  <title>Movingbay Relocation Services | Relocation to USA</title>
+
+  <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.png') }}">
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -75,19 +77,20 @@
                 <div class="col-md-12 col-lg-7 text-center text-lg-left">
                     <div class="main-banner">
                         <!-- Heading -->
-                        <h4 class="mb-2">Your Reliable Relocation Assistant</h4>
+                        <h4 class="mb-2">Corporate Relocation Services</h4>
                         <h1 class="display-4 mb-4 font-weight-normal">
-                        Best Quality Packaging and Moving for any type of Household Goods
+                        Exceptional employee relocation experience to our corporate clients, their employees &amp; their families
                         </h1>
 
                         <!-- Subheading -->
                         
                         <p class="lead mb-4">
-                        Moving overseas is far different from relocating to a new place in your home country. You will have to travel thousands of miles by sea, road, or air to reach your expat destination. If you are planning to carry the bulk of your possessions, you will have to opt for a reliable relocation assistant for relocation of household goods safely to your adopted country.
+                        Until recently the process of staff relocation has been a messy business with organizations often unable to get to grip with the true costs involved, both in terms of the time lost due to relocation by the staff members and in the actual costs involved in making it happen.
                         </p>
-                        <p class="lead mb-0">Relocating is stressful as it is, and without an experienced supplier at your side, it can be a truly harrowing experience. Movingbay is always ready to help you for moving any type of household shifting, residential relocation and car transportation services. We provide best quality packaging and moving transportation for any type of household goods shifting </p>
+                        <p class="lead mb-0">We can help you to plan and develop a best-practice relocation program, providing exactly the type and degree of assistance you need. We have assisted companies of all types and sizes, with domestic programs, global programs and blended domestic/global programs. </p>
+                        <p class="lead mb-0"> In an era of cost-cutting and tight relocation budgets, Movingbay  assures clients of transparency and total control over their employee relocation costs. Our specialists have deep knowledge of relocation accounting, processing alternatives and regulations. </p>
                         <p class="mb-0">
-                            <a href="{{ url('/quotes') }}" target="_blank" class="btn btn-primary btn-circled">
+                            <a href="#" target="_blank" class="btn btn-primary btn-circled">
                                 Get a Quote
                             </a>
                         </p>

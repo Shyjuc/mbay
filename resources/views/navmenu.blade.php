@@ -34,14 +34,8 @@
                                 <a class="dropdown-item " href="{{ url('/moving-to-europe') }}">
                                     EUROPE
                                 </a>
-                                <a class="dropdown-item " href="{{ url('/moving-to-gcc') }}">
-                                    GCC
-                                </a>
                                 <a class="dropdown-item " href="{{ url('/moving-to-canada') }}">
                                     CANADA
-                                </a>
-                                <a class="dropdown-item " href="{{ url('/moving-to-south-america') }}">
-                                    SOUTH AMERICA
                                 </a>
                                 <a class="dropdown-item " href="{{ url('/moving-to-australia') }}">
                                     AUSTRALIA

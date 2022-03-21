@@ -10,7 +10,7 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>MovingBay Relocation Services | Shipping Pets and Household goods to India</title>
+  <title>MovingBay Relocation Services | Employee Relocation</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -75,17 +75,18 @@
                 <div class="col-md-12 col-lg-7 text-center text-lg-left">
                     <div class="main-banner">
                         <!-- Heading -->
-                        <h4 class="mb-2">Your Reliable Relocation Assistant</h4>
+                        <h4 class="mb-2">Corporate Relocation Services</h4>
                         <h1 class="display-4 mb-4 font-weight-normal">
-                        Best Quality Packaging and Moving for any type of Household Goods
+                        Exceptional employee relocation experience to our corporate clients, their employees &amp; their families
                         </h1>
 
                         <!-- Subheading -->
                         
                         <p class="lead mb-4">
-                        Moving overseas is far different from relocating to a new place in your home country. You will have to travel thousands of miles by sea, road, or air to reach your expat destination. If you are planning to carry the bulk of your possessions, you will have to opt for a reliable relocation assistant for relocation of household goods safely to your adopted country.
+                        Until recently the process of staff relocation has been a messy business with organizations often unable to get to grip with the true costs involved, both in terms of the time lost due to relocation by the staff members and in the actual costs involved in making it happen.
                         </p>
-                        <p class="lead mb-0">Relocating is stressful as it is, and without an experienced supplier at your side, it can be a truly harrowing experience. Movingbay is always ready to help you for moving any type of household shifting, residential relocation and car transportation services. We provide best quality packaging and moving transportation for any type of household goods shifting </p>
+                        <p class="lead mb-0">We can help you to plan and develop a best-practice relocation program, providing exactly the type and degree of assistance you need. We have assisted companies of all types and sizes, with domestic programs, global programs and blended domestic/global programs. </p>
+                        <p class="lead mb-0"> In an era of cost-cutting and tight relocation budgets, Movingbay  assures clients of transparency and total control over their employee relocation costs. Our specialists have deep knowledge of relocation accounting, processing alternatives and regulations. </p>
                         <p class="mb-0">
                             <a href="{{ url('/quotes') }}" target="_blank" class="btn btn-primary btn-circled">
                                 Get a Quote
@@ -103,86 +104,6 @@
                 </div>
             </div> <!-- / .row -->
         </div> <!-- / .container -->
-    </section>
-
-    <section class="section bg-grey" id="feature">
-        <div class="container">
-            <div class="row justy-content-center">
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-thumb-up"></i>
-                        </div>
-                        <h4 class="mb-2">Get right advice</h4>
-                        <p>Our team are experts in matching you with the right provider.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-cup"></i>
-                        </div>
-                        <h4 class="mb-2">Recognised for excellence</h4>
-                        <p>We've been awarded for our high rate of customer satisfaction.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-wallet"></i>
-                        </div>
-                        <h4 class="mb-2">Compare the best</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="ti-dashboard"></i>
-                        </div>
-                        <h4 class="mb-2">Premium Services</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- / .container -->
-    </section>
-
-
-    
-
-
-
-    <section class="bg-grey" id="service">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-4">
-                    <div class="service-img">
-                        <img src="images/blog-lg2.jpg" alt="" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-8 pl-4">
-                    <div class="service-content">
-                        <h1>Why Moving Bay?</h1>
-                        <p style="text-align: justify;">We recognize well that household items are countless, and shifting each of these things requires proficiency. We pack all of your household belongings with greatest accuracy, and loaded vigilantly into the trucks for shipping to the preferred destination within excellent time.</p>
-                        <p style="text-align: justify;">The packing of your possessions are always finished under the direction of a specialist to make sure that no injure is done to your goods throughout their shipping from origin to destination</p>
-                        <p style="text-align: justify;">We have a high quality task force of well-maintained as well as profound vehicles, so that shifting your goods to a new place can always be completed on time and professionally.</p>
-                        <p style="text-align: justify;">Our partnership of trusted moving professionals will take the stress out of the shipping of household goods.</p>
-                        <h1>Why We are Your Right Choice?</h1>
-                        <ul>
-                            <li>We save your time as the professionals are experienced to complete packing and moving of goods in a quick manner.</li>
-                            <li>Large fleets of moving vehicles are available for easy and safe shifting of household goods.</li>
-                            <li>We also offer services of moving insurance and warehousing to their customers.</li>
-                            <li>Doorstep delivery of goods available.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
 
